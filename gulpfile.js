@@ -2,7 +2,7 @@
 // For production  => gulp -p
 
 // Call Plugins
-var env        = require('minimist')(process.argv.slice(2)),
+var env      = require('minimist')(process.argv.slice(2)),
 	gulp       = require('gulp'),
 	jade       = require('gulp-jade'),
 	uglify     = require('gulp-uglify'),

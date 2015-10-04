@@ -7,15 +7,41 @@ html
 		meta(name='description' content="meta desc")
 		meta(name='viewport' content='width=device-width, initial-scale=1.0')
 		link(rel="stylesheet", type="text/css", href="css/main.css")
-
-	body
-
-		//- put your content here
-		.container
-			.col-sm-3.col-md-offset-3
-				h1 It Works! =)
-			.col-sm-3
-				img(src="img/placeholder2.jpg", alt="Placeholder" class="img-rounded img-responsive")
-
-		script(type="text/javascript", src="//code.jquery.com/jquery-1.11.0.min.js")
+	body#page-top(data-spy='scroll', data-target='.navbar-custom')
+		section.intro
+			.intro-body
+				.container
+					.row
+						.col-md-8.col-md-offset-2
+							h1.brand-heading Grayscale
+							p.intro-text A free, premium quality, responsive one page Bootstrap theme created by Start Bootstrap.
+							.page-scroll 
+								a.btn.btn-circle(href='#about') 
+								i.fa.fa-angle-double-down.animated
+		nav.navbar.navbar-static(role='navigation')
+			.container
+				.navbar-header.navbar-static.page-scroll
+					button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-main-collapse')
+					a.navbar-brand(href="page-top")
+						i.fa.fa-play-circle
+						span.light Start
+						|  Bootstrap
+		.collapse.navbar-collapse.navbar-right.navbar-main-collapse
+			ul.nav.navbar-nav
+				li.hidden
+					a(href="#page-top")
+				li.page-scroll
+					a(href="#about") About
+				li.page-scroll
+					a(href="#download") Download
+				li.page-scroll
+					a(href="#contact") Contact
+		section#about.container.content-section.text-center
+			.row
+				.col-lg-8.col-lg-offset-2
+					h2 About Me
+					p 
+						| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequawt.
+					
+		script(type="text/javascript", src="http://code.jquery.com/jquery-1.11.0.min.js")
 		script(type="text/javascript", src="js/main.js")
