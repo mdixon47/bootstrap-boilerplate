@@ -8080,6 +8080,11 @@ html {
   height: 500px;
 }
 
+/* line 48, ../sass/_layout.scss */
+footer {
+  height: 100px;
+}
+
 /*!
  * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -8102,7 +8107,7 @@ html {
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
 of those sections to manage the look and feel of the site. */
-/* line 25, ../sass/_scrolling-nav.scss */
+/* line 26, ../sass/_scrolling-nav.scss */
 .intro-section {
   height: 100%;
   padding-top: 150px;
@@ -8110,7 +8115,7 @@ of those sections to manage the look and feel of the site. */
   background: #fff;
 }
 
-/* line 32, ../sass/_scrolling-nav.scss */
+/* line 33, ../sass/_scrolling-nav.scss */
 #about-section {
   height: 100%;
   padding-top: 150px;
@@ -8118,7 +8123,7 @@ of those sections to manage the look and feel of the site. */
   background: #eee;
 }
 
-/* line 39, ../sass/_scrolling-nav.scss */
+/* line 40, ../sass/_scrolling-nav.scss */
 #portfolio-section {
   height: 100%;
   padding-top: 150px;
@@ -8126,10 +8131,34 @@ of those sections to manage the look and feel of the site. */
   background: #fff;
 }
 
-/* line 46, ../sass/_scrolling-nav.scss */
+/* line 47, ../sass/_scrolling-nav.scss */
 #contact-section {
   height: 100%;
   padding-top: 150px;
   text-align: center;
   background: #eee;
+}
+
+/* line 54, ../sass/_scrolling-nav.scss */
+#custom-nav.affix {
+  top: 0;
+  min-width: 100%;
+  background-color: red;
+  opacity: 0.9;
+  -webkit-transition: background .5s ease-in-out, opacity .5s ease;
+  -moz-transition: background .5s ease-in-out, opacity .5s ease;
+  transition: background .5s ease-in-out, opacity .5s ease;
+}
+
+/* line 64, ../sass/_scrolling-nav.scss */
+#custom-nav {
+  background-color: transparent;
+  border: 0;
+  box-shadow: none;
+  z-index: 999;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: background .5s ease-in-out, opacity .5s ease;
+  -moz-transition: background .5s ease-in-out, opacity .5s ease;
+  transition: background .5s ease-in-out, opacity .5s ease;
 }

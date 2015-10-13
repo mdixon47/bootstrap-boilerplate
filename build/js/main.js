@@ -1221,11 +1221,12 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
 
 //jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
-    if ($(".navbar").offset().top > 50) {
-        $(".navbar-fixed-top").addClass("top-nav-collapse");
-        $("navbar").css('opacity', ($(document).scrollTop() / 1200));
+    if ($('.navbar').offset().top > 450) {
+        $('#custom-nav').addClass('affix');
+        $('.navbar-fixed-top').addClass('top-nav-collapse');
     } else {
-        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+        $('#custom-nav').removeClass('affix');
+        $('.navbar-fixed-top').removeClass('top-nav-collapse');
     }
 });
 

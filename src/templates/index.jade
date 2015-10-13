@@ -10,7 +10,7 @@ html
 
 	body#page-top(data-target='.navbar-custom')
 
-		nav.navbar.navbar-fixed-top(role='navigation')
+		nav#custom-nav.navbar.navbar-fixed-top(role='navigation')
 			.container
 				.navbar-header
 					button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex1-collapse')
@@ -29,7 +29,7 @@ html
 						li
 							a.page-scroll(href='#portfolio-section') Portfolio            
 						li
-							a.page-scroll(href='#about-section') About  
+							a.page-scroll(href='#contact-section') Contact
 						li
 							a(href='#') Blog
 
@@ -50,7 +50,7 @@ html
 		section#about-section.text-center
 			.container
 				.row
-					.col-lg-8.col-lg-offset-2
+					.col-lg-12
 						h2 About Me
 						p 
 							| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequawt.
@@ -65,7 +65,7 @@ html
 					.col-md-4
 						h3 Coding
 						p
-							| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 					.col-md-4
 						h3 Internet Marketing
 						p
@@ -76,7 +76,7 @@ html
 						| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
 
 		section#portfolio-section.content-section.text-center
-			.download-section
+			.portfolio-section
 				.container
 					.col-lg-8.col-lg-offset-2
 						h2 My Work
@@ -103,9 +103,14 @@ html
 							li 
 								a.btn.btn-default.btn-lg(href="#")
 									i.fa.fa-google-plus.fa-fw
-									span.network-name Google+	
+									span.network-name Google+
 									
-		footer					
+		footer.text-center
+			.container
+				.row
+					h3 This is the footer
+					p
+					| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 				
 
 		script(type="text/javascript", src="http://code.jquery.com/jquery-1.11.0.min.js")
 		script(type="text/javascript", src="js/main.js")
