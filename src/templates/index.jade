@@ -9,7 +9,7 @@ html
 		link(rel="stylesheet", type="text/css", href="css/main.css")
 
 	body#page-top(data-target='.navbar-custom')
-	
+
 		nav.navbar.navbar-fixed-top(role='navigation')
 			.container
 				.navbar-header
@@ -23,11 +23,15 @@ html
 				.collapse.navbar-collapse.navbar-right
 					ul.nav.navbar-nav
 						li
+							a.page-scroll(href='#page-top')  
+						li
 							a.page-scroll(href='#about-section') About           
 						li
 							a.page-scroll(href='#portfolio-section') Portfolio            
 						li
-							a.page-scroll(href='#contact-section') Contact
+							a.page-scroll(href='#about-section') About  
+						li
+							a(href='#') Blog
 
 
 		section#intro.intro-section
@@ -40,7 +44,7 @@ html
 							.page-scroll 
 								a.btn.btn-circle(href='#about') 
 								i.fa.fa-angle-double-down.animated
-      
+
 
 
 		section#about-section.text-center
@@ -58,6 +62,18 @@ html
 							| .
 						p
 							| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+					.col-md-4
+						h3 Coding
+						p
+							| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					.col-md-4
+						h3 Internet Marketing
+						p
+						| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					.col-md-4
+						h3 Web Design
+						p
+						| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
 
 		section#portfolio-section.content-section.text-center
 			.download-section
@@ -87,7 +103,9 @@ html
 							li 
 								a.btn.btn-default.btn-lg(href="#")
 									i.fa.fa-google-plus.fa-fw
-									span.network-name Google+						
+									span.network-name Google+	
+									
+		footer					
 
 		script(type="text/javascript", src="http://code.jquery.com/jquery-1.11.0.min.js")
 		script(type="text/javascript", src="js/main.js")

@@ -1223,12 +1223,13 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
+        $("navbar").css('opacity', ($(document).scrollTop() / 1200));
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
 });
 
-//jQuery for page scrolling feature - requires jQuery Easing 
+//jQuery for page scrolling feature - requires jQuery Easing
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);

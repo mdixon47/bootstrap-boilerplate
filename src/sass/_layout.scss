@@ -19,6 +19,9 @@
   }
 }
 
+.navbar{
+}
+
 .navbar-brand{
     background-image: url(../img/malikdixon_sm.png);
     background-position: center;
@@ -28,6 +31,14 @@
     padding: 0;
     border: 2px solid #fff;
     border-radius: 50%;
+}
+
+.navbar-nav ul li a {
+
+}
+
+.navbar-nav ul li a:hover{
+
 }
 
 #about {

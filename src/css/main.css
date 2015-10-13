@@ -8063,7 +8063,7 @@ html {
   color: #fff;
 }
 
-/* line 22, ../sass/_layout.scss */
+/* line 25, ../sass/_layout.scss */
 .navbar-brand {
   background-image: url(../img/malikdixon_sm.png);
   background-position: center;
@@ -8075,7 +8075,7 @@ html {
   border-radius: 50%;
 }
 
-/* line 33, ../sass/_layout.scss */
+/* line 44, ../sass/_layout.scss */
 #about {
   height: 500px;
 }
