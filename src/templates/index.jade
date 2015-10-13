@@ -9,6 +9,7 @@ html
 		link(rel="stylesheet", type="text/css", href="css/main.css")
 
 	body#page-top(data-target='.navbar-custom')
+	
 		nav.navbar.navbar-fixed-top(role='navigation')
 			.container
 				.navbar-header
@@ -22,14 +23,14 @@ html
 				.collapse.navbar-collapse.navbar-right
 					ul.nav.navbar-nav
 						li
-							a(href='#about') About           
+							a.page-scroll(href='#about-section') About           
 						li
-							a(href='#portfolio') Portfolio            
+							a.page-scroll(href='#portfolio-section') Portfolio            
 						li
-							a(href='#contact') Contact
+							a.page-scroll(href='#contact-section') Contact
 
 
-		section.intro
+		section#intro.intro-section
 			.intro-body
 				.container
 					.row
@@ -42,22 +43,23 @@ html
       
 
 
-		section#about.container.content-section.text-center
-			.row
-				.col-lg-8.col-lg-offset-2
-					h2 About Me
-					p 
-						| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequawt.
-					p 
-						| This striking, black and white theme features stock photographs by
-						a(href="http://gratisography.com")  Gratisography
-						|  along with a custom Google Map skin courtesy of 
-						a(href="//snazzymaps.com/") Snazzy Maps
-						| .
-					p
-						| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+		section#about-section.text-center
+			.container
+				.row
+					.col-lg-8.col-lg-offset-2
+						h2 About Me
+						p 
+							| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequawt.
+						p 
+							| This striking, black and white theme features stock photographs by
+							a(href="http://gratisography.com")  Gratisography
+							|  along with a custom Google Map skin courtesy of 
+							a(href="//snazzymaps.com/") Snazzy Maps
+							| .
+						p
+							| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
 
-		section#portfolio.content-section.text-center
+		section#portfolio-section.content-section.text-center
 			.download-section
 				.container
 					.col-lg-8.col-lg-offset-2
@@ -66,7 +68,7 @@ html
 							| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
 
 
-		section#contact.content-section.text-center
+		section#contact-section.content-section.text-center
 			.download-section
 				.container
 					.col-lg-8.col-lg-offset-2

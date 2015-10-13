@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 /* line 9, ../sass/bootstrap/_normalize.scss */
 html {
   font-family: sans-serif;
@@ -8029,7 +8030,7 @@ button.close {
 body {
   width: 100%;
   height: 100%;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Open sans",Helvetica,Arial,sans-serif;
 }
 
 /* line 7, ../sass/_base.scss */
@@ -8039,7 +8040,7 @@ html {
 }
 
 /* line 1, ../sass/_layout.scss */
-.intro {
+#intro {
   display: inline-block;
   width: 100%;
   height: 100%;
@@ -8055,21 +8056,80 @@ html {
 
 /* line 15, ../sass/_layout.scss */
 .navbar-right {
-  margin-top: 25px;
+  margin-top: 5px;
 }
 /* line 17, ../sass/_layout.scss */
 .navbar-right .navbar-nav li a {
   color: #fff;
 }
 
-/* line 24, ../sass/_layout.scss */
+/* line 22, ../sass/_layout.scss */
 .navbar-brand {
   background-image: url(../img/malikdixon_sm.png);
   background-position: center;
-  margin: 15px;
+  margin-top: 5px;
   width: 80px;
   height: 80px;
   padding: 0;
   border: 2px solid #fff;
   border-radius: 50%;
+}
+
+/* line 33, ../sass/_layout.scss */
+#about {
+  height: 500px;
+}
+
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+@media (min-width: 767px) {
+  /* line 9, ../sass/_scrolling-nav.scss */
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+
+  /* line 16, ../sass/_scrolling-nav.scss */
+  .top-nav-collapse {
+    padding: 0;
+  }
+}
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
+of those sections to manage the look and feel of the site. */
+/* line 25, ../sass/_scrolling-nav.scss */
+.intro-section {
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: #fff;
+}
+
+/* line 32, ../sass/_scrolling-nav.scss */
+#about-section {
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: #eee;
+}
+
+/* line 39, ../sass/_scrolling-nav.scss */
+#portfolio-section {
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: #fff;
+}
+
+/* line 46, ../sass/_scrolling-nav.scss */
+#contact-section {
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: #eee;
 }

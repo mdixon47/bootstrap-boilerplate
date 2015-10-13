@@ -1,4 +1,4 @@
-.intro {
+#intro{
     display: inline-block;
     width: 100%;
     height: 100%;
@@ -13,21 +13,23 @@
 }
 
 .navbar-right{
-    margin-top: 25px;
+    margin-top: 5px;
     .navbar-nav li a {
     color: #fff;
   }
 }
 
-
-
 .navbar-brand{
     background-image: url(../img/malikdixon_sm.png);
     background-position: center;
-    margin: 15px;
+    margin-top: 5px;
     width: 80px;
     height: 80px;
     padding: 0;
     border: 2px solid #fff;
     border-radius: 50%;
+}
+
+#about {
+  height: 500px;
 }
