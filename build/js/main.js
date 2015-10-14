@@ -1221,7 +1221,7 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
 
 //jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
-    if ($('.navbar').offset().top > 450) {
+    if ($('.navbar').offset().top > 650) {
         $('#custom-nav').addClass('affix');
         $('.navbar-fixed-top').addClass('top-nav-collapse');
     } else {

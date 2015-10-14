@@ -414,8 +414,8 @@
 
       &:hover,
       &:focus {
-        color: $navbar-default-link-hover-color;
-        background-color: $navbar-default-link-hover-bg;
+        color: red;
+        background-color: transparent;
       }
     }
     > .active > a {
@@ -437,13 +437,13 @@
   }
 
   .navbar-toggle {
-    border-color: $navbar-default-toggle-border-color;
+    border-color: none;
     &:hover,
     &:focus {
-      background-color: $navbar-default-toggle-hover-bg;
+      background-color: transparent;
     }
     .icon-bar {
-      background-color: $navbar-default-toggle-icon-bar-bg;
+
     }
   }
 
