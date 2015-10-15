@@ -8066,13 +8066,18 @@ html {
 }
 
 /* line 28, ../sass/_layout.scss */
+.portfolio-site-1 {
+  padding: 30px;
+}
+
+/* line 32, ../sass/_layout.scss */
 .card {
   height: 300px;
-  width: 360px;
+  width: 362px;
   border: 1px solid #000;
 }
 
-/* line 38, ../sass/_layout.scss */
+/* line 43, ../sass/_layout.scss */
 footer {
   height: 100px;
 }
@@ -8117,8 +8122,8 @@ of those sections to manage the look and feel of the site. */
 
 /* line 40, ../sass/_scrolling-nav.scss */
 #portfolio-section {
-  height: 100%;
-  padding-top: 150px;
+  height: 900px;
+  padding-top: 50px;
   text-align: center;
   background: #fff;
 }
