@@ -19,27 +19,21 @@
   }
 }
 
-.navbar{
-}
-
 .navbar-brand{
    color: #fff;
    font-weight: bold;
    font-size: 24px;
-
 }
 
-.navbar-nav ul li a {
+.card{
+  height: 300px;
+  width: 360px;
+  border: 1px solid #000;
+  .card-image{
 
+  }
 }
 
-.navbar-nav ul li a:hover{
-
-}
-
-#about {
-  height: 500px;
-}
 
 footer{
   height: 100px;
