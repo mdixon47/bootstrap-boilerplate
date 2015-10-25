@@ -1,4 +1,5 @@
 // Code goes here
+//Opacity of button set to 0%
 
 /* ========================================================================
  * Bootstrap: affix.js v3.2.0

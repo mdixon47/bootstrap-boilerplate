@@ -8,7 +8,7 @@ html
 		meta(name='viewport' content='width=device-width, initial-scale=1.0')
 		link(rel="stylesheet", type="text/css", href="css/main.css")
 
-	body#page-top(data-target='.navbar-custom')
+	body#page-top(data-target='.navbar-fixed-top')
 
 		nav#custom-nav.navbar.navbar-fixed-top(role='navigation')
 			.container
@@ -20,7 +20,7 @@ html
 						span.icon-bar
 					a.navbar-brand(href='#') Malik W. Dixon
 
-				.collapse.navbar-collapse.navbar-right
+				.collapse.navbar-collapse.navbar-right.navbar-ex1-collapse
 					ul.nav.navbar-nav
 						li
 							a.page-scroll(href='#page-top')  
@@ -39,10 +39,10 @@ html
 				.container
 					.row
 						.col-md-8.col-md-offset-2
-							h1.brand-heading Malik W. Dixon
-							p.intro-text A free, premium quality, responsive one page Bootstrap theme created by Start Bootstrap.
+							h1.brand-heading Internet Marketer and Front-End Developer
+							p.intro-text Building and creating Internet marketing and Web application solutions.
 							.page-scroll 
-								a.btn.btn-circle(href='#about') 
+								a.btn.btn-circle.page-scroll(href='#about-section') 
 								i.fa.fa-angle-double-down.animated
 
 
@@ -62,6 +62,7 @@ html
 							| .
 						p
 							| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				.container.work_type
 					.col-md-4
 						h3 Coding
 						p
@@ -78,77 +79,84 @@ html
 		section#portfolio-section.content-section.text-center
 			.portfolio-section
 				.container
-					.col-lg-8.col-lg-offset-2
+					.col-lg-12
 						h2 My Work
-						p
-							| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+						p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
 
 				.portfolio-site-1
 					.container
 						.row
 							.col-md-4
 								.card
-									.card-image
-										img(src="https://unsplash.it/360/125?image=894")
-										.content
-											h4 Web Site 1
-											p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-											a.info(role="button")(href="#") More Info
-							.col-md-4
-								.card
-									.card-image
-										img(src="https://unsplash.it/360/125?image=893")
-										.content
-											h4 Web Site 2
-											p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-											a.info(role="button")(href="#") More Info
-							.col-md-4
-								.card
-									.card-image
-										img(src="https://unsplash.it/360/125?image=887")
-										.content
+									a.card-image(href="")
+										span.rollover
+										img.imgborder(alt="" src="https://unsplash.it/360/125?image=894")
+									.card-content
 										h4 Web Site 1
 										p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-										a.info(role="button")(href="#") More Info
+
+							.col-md-4
+								.card
+									a.card-image(href="")
+										span.rollover
+										img.imgborder(alt="Go To Site"
+										src="https://unsplash.it/360/125?image=893")
+									.card-content
+										h4 Web Site 2
+										p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+							.col-md-4
+								.card
+									a.card-image(href="")
+										span.rollover
+										img.imgborder(alt=""
+										src="https://unsplash.it/360/125?image=887")
+									.card-content
+										h4 Web Site 3
+										p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
 
 				.portfolio-site-2				
 					.container
 						.row
 							.col-md-4
 								.card
-									.card-image
-										img(src="https://unsplash.it/360/125?image=889")
-										.content
-											h4 Web Site 4
-											p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-											a.info(role="button")(href="#") More Info
+									a.card-image(href="")
+										span.rollover
+										img.imgborder(alt=""
+										src="https://unsplash.it/360/125?image=889")
+									.card-content
+										h4 Web Site 4
+										p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
 							.col-md-4
 								.card
-									.card-image
-										img(src="https://unsplash.it/360/125?image=885")
-										.content
+									.card
+										a.card-image(href="")
+											span.rollover
+											img.imgborder(alt=""
+											src="https://unsplash.it/360/125?image=885")
+										.card-content
 											h4 Web Site 5
 											p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-											a.info(role="button")(href="#") More Info
+
 							.col-md-4
 								.card
-									.card-image
-										img(src="https://unsplash.it/360/125?image=870")
-										.content
+									a.card-image(href="")
+										span.rollover
+										img.imgborder(alt=""
+										src="https://unsplash.it/360/125?image=870")
+									.card-content
 										h4 Web Site 6
 										p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-										a.info(role="button")(href="#") More Info
-
-
-
 
 		section#contact-section.content-section.text-center
-			.download-section
+			.contact-section
 				.container
 					.col-lg-8.col-lg-offset-2
 						h2 Contact me
 						p
-							| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+						| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
 						ul.list-inline.banner-social-buttons
 							li
 								a.btn.btn-default.btn-lg(href="https://twitter.com/mdixon2009")
@@ -162,15 +170,14 @@ html
 								a.btn.btn-default.btn-lg(href="#")
 									i.fa.fa-google-plus.fa-fw
 									span.network-name Google+
-
+									
 		footer.text-center
-			.container
-				.row
-					h3 This is the footer
-					p
-					| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				.container
+					.row
+						h3 This is the footer
+						p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 
-		script(type="text/javascript", src="http://code.jquery.com/jquery-1.11.0.min.js")
-		script(type="text/javascript", src="js/main.js")
-		script(type="text/javascript", src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js")
+	script(type="text/javascript", src="http://code.jquery.com/jquery-1.11.0.min.js")
+	script(type="text/javascript", src="js/main.js")
+	script(type="text/javascript", src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js")

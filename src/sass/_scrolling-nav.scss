@@ -38,10 +38,19 @@ of those sections to manage the look and feel of the site. */
 }
 
 #portfolio-section {
-    height: 900px;
-    padding-top: 50px;
+    height: 850px;
+    padding-top: 70px;
     text-align: center;
-    background: #fff;
+    background: url("https://unsplash.it/1200/780?image=668") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    h2{
+       color: #fff;
+    }
+    p{
+      color: #fff;
+    }
 }
 
 #contact-section {
@@ -54,7 +63,7 @@ of those sections to manage the look and feel of the site. */
 #custom-nav.affix {
     top: 0;
     min-width: 100%;
-    background-color: #000;
+    background-color: rgba(0,0,0,0.4);
     opacity: 0.9;
     -webkit-transition: background .5s ease-in-out, opacity .5s ease;
     -moz-transition: background .5s ease-in-out, opacity .5s ease;
