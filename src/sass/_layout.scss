@@ -29,6 +29,9 @@
    .work_type{
      margin-top: 30px;
    }
+   h2{
+     text-transform: uppercase;
+   }
 }
 
 
@@ -78,6 +81,20 @@
     }
   }
 }
+
+#skillset-section{
+  .get{
+    display: none
+  }
+  #diagram {
+    float: left;
+    width: 600px;
+    height: 600px;
+  }
+}
+
+
+
 
 
 footer{

@@ -3,81 +3,89 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
-
 @media(min-width:767px) {
-    .navbar {
-        padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
-
-    .top-nav-collapse {
-        padding: 0;
-    }
+				.navbar {
+								padding: 20px 0;
+								-webkit-transition: background 0.5s ease-in-out,padding 0.5s ease-in-out;
+								-moz-transition: background 0.5s ease-in-out,padding 0.5s ease-in-out;
+								transition: background 0.5s ease-in-out,padding 0.5s ease-in-out;
+				}
+				.top-nav-collapse {
+								padding: 0;
+				}
 }
-
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
 of those sections to manage the look and feel of the site. */
-
 .intro-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
+				height: 100%;
+				padding-top: 150px;
+				text-align: center;
+				background: #fff;
 }
-
 #about-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
+				height: 100%;
+				padding-top: 120px;
+				text-align: center;
+				background: #eee;
+				.about-img {
+								height: 200px;
+								width: 200px;
+								border-radius: 50%;
+								border: 5px solid #fff;
+								-webkit-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
+								-moz-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
+								box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
+				}
+}
+#portfolio-section {
+				height: 850px;
+				padding-top: 70px;
+				text-align: center;
+				background: url("https://unsplash.it/1200/780?image=668") no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+				background-position: center center;
+				h2 {
+								color: #fff;
+				}
+				p {
+								color: #fff;
+				}
 }
 
-#portfolio-section {
-    height: 850px;
-    padding-top: 70px;
-    text-align: center;
-    background: url("https://unsplash.it/1200/780?image=668") no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
-    h2{
-       color: #fff;
-    }
-    p{
-      color: #fff;
-    }
+#skillset-section{
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: #fff;
+
 }
 
 #contact-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
+				height: 100%;
+				padding-top: 150px;
+				text-align: center;
+				background: #eee;
 }
-
 #custom-nav.affix {
-    top: 0;
-    min-width: 100%;
-    background-color: rgba(0,0,0,0.4);
-    opacity: 0.9;
-    -webkit-transition: background .5s ease-in-out, opacity .5s ease;
-    -moz-transition: background .5s ease-in-out, opacity .5s ease;
-    transition: background .5s ease-in-out, opacity .5s ease;
+				top: 0;
+				min-width: 100%;
+				background-color: rgba(0,0,0,0.4);
+				opacity: 0.9;
+				-webkit-transition: background 0.5s ease-in-out, opacity 0.5s ease;
+				-moz-transition: background 0.5s ease-in-out, opacity 0.5s ease;
+				transition: background 0.5s ease-in-out, opacity 0.5s ease;
 }
-
 #custom-nav {
-    background-color: rgba(0,0,0,0);
-    border: 0;
-    box-shadow: none;
-    z-index: 999;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-transition: background .5s ease-in-out, opacity .5s ease;
-    -moz-transition: background .5s ease-in-out, opacity .5s ease;
-    transition: background .5s ease-in-out, opacity .5s ease;
+				background-color: rgba(0,0,0,0);
+				border: 0;
+				box-shadow: none;
+				z-index: 999;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-transition: background 0.5s ease-in-out, opacity 0.5s ease;
+				-moz-transition: background 0.5s ease-in-out, opacity 0.5s ease;
+				transition: background 0.5s ease-in-out, opacity 0.5s ease;
 }

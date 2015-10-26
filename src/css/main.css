@@ -5101,7 +5101,6 @@ tbody.collapse.in {
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
-  border: 1px solid transparent;
 }
 /* line 14, ../sass/bootstrap/mixins/_clearfix.scss */
 .navbar:before, .navbar:after {
@@ -5129,13 +5128,13 @@ tbody.collapse.in {
   clear: both;
 }
 @media (min-width: 768px) {
-  /* line 31, ../sass/bootstrap/_navbar.scss */
+  /* line 30, ../sass/bootstrap/_navbar.scss */
   .navbar-header {
     float: left;
   }
 }
 
-/* line 50, ../sass/bootstrap/_navbar.scss */
+/* line 49, ../sass/bootstrap/_navbar.scss */
 .navbar-collapse {
   overflow-x: visible;
   padding-right: 15px;
@@ -5153,49 +5152,49 @@ tbody.collapse.in {
 .navbar-collapse:after {
   clear: both;
 }
-/* line 59, ../sass/bootstrap/_navbar.scss */
+/* line 58, ../sass/bootstrap/_navbar.scss */
 .navbar-collapse.in {
   overflow-y: auto;
 }
 @media (min-width: 768px) {
-  /* line 50, ../sass/bootstrap/_navbar.scss */
+  /* line 49, ../sass/bootstrap/_navbar.scss */
   .navbar-collapse {
     width: auto;
     border-top: 0;
     box-shadow: none;
   }
-  /* line 68, ../sass/bootstrap/_navbar.scss */
+  /* line 67, ../sass/bootstrap/_navbar.scss */
   .navbar-collapse.collapse {
     display: block !important;
     height: auto !important;
     padding-bottom: 0;
     overflow: visible !important;
   }
-  /* line 75, ../sass/bootstrap/_navbar.scss */
+  /* line 74, ../sass/bootstrap/_navbar.scss */
   .navbar-collapse.in {
     overflow-y: visible;
   }
-  /* line 81, ../sass/bootstrap/_navbar.scss */
+  /* line 80, ../sass/bootstrap/_navbar.scss */
   .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-/* line 92, ../sass/bootstrap/_navbar.scss */
+/* line 91, ../sass/bootstrap/_navbar.scss */
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
   max-height: 340px;
 }
 @media (max-width: 480px) and (orientation: landscape) {
-  /* line 92, ../sass/bootstrap/_navbar.scss */
+  /* line 91, ../sass/bootstrap/_navbar.scss */
   .navbar-fixed-top .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {
     max-height: 200px;
   }
 }
 
-/* line 108, ../sass/bootstrap/_navbar.scss */
+/* line 107, ../sass/bootstrap/_navbar.scss */
 .container > .navbar-header,
 .container > .navbar-collapse,
 .container-fluid > .navbar-header,
@@ -5204,7 +5203,7 @@ tbody.collapse.in {
   margin-left: -15px;
 }
 @media (min-width: 768px) {
-  /* line 108, ../sass/bootstrap/_navbar.scss */
+  /* line 107, ../sass/bootstrap/_navbar.scss */
   .container > .navbar-header,
   .container > .navbar-collapse,
   .container-fluid > .navbar-header,
@@ -5214,19 +5213,19 @@ tbody.collapse.in {
   }
 }
 
-/* line 128, ../sass/bootstrap/_navbar.scss */
+/* line 127, ../sass/bootstrap/_navbar.scss */
 .navbar-static-top {
   z-index: 1000;
   border-width: 0 0 1px;
 }
 @media (min-width: 768px) {
-  /* line 128, ../sass/bootstrap/_navbar.scss */
+  /* line 127, ../sass/bootstrap/_navbar.scss */
   .navbar-static-top {
     border-radius: 0;
   }
 }
 
-/* line 138, ../sass/bootstrap/_navbar.scss */
+/* line 137, ../sass/bootstrap/_navbar.scss */
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   position: fixed;
@@ -5237,27 +5236,27 @@ tbody.collapse.in {
   transform: translate3d(0, 0, 0);
 }
 @media (min-width: 768px) {
-  /* line 138, ../sass/bootstrap/_navbar.scss */
+  /* line 137, ../sass/bootstrap/_navbar.scss */
   .navbar-fixed-top,
   .navbar-fixed-bottom {
     border-radius: 0;
   }
 }
 
-/* line 151, ../sass/bootstrap/_navbar.scss */
+/* line 150, ../sass/bootstrap/_navbar.scss */
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 1px;
 }
 
-/* line 155, ../sass/bootstrap/_navbar.scss */
+/* line 154, ../sass/bootstrap/_navbar.scss */
 .navbar-fixed-bottom {
   bottom: 0;
   margin-bottom: 0;
   border-width: 1px 0 0;
 }
 
-/* line 164, ../sass/bootstrap/_navbar.scss */
+/* line 163, ../sass/bootstrap/_navbar.scss */
 .navbar-brand {
   float: left;
   padding: 15px 15px;
@@ -5265,18 +5264,18 @@ tbody.collapse.in {
   line-height: 20px;
   height: 50px;
 }
-/* line 171, ../sass/bootstrap/_navbar.scss */
+/* line 170, ../sass/bootstrap/_navbar.scss */
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }
 @media (min-width: 768px) {
-  /* line 177, ../sass/bootstrap/_navbar.scss */
+  /* line 176, ../sass/bootstrap/_navbar.scss */
   .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
     margin-left: -15px;
   }
 }
 
-/* line 190, ../sass/bootstrap/_navbar.scss */
+/* line 189, ../sass/bootstrap/_navbar.scss */
 .navbar-toggle {
   position: relative;
   float: right;
@@ -5286,43 +5285,43 @@ tbody.collapse.in {
   margin-bottom: 8px;
   background-color: transparent;
   background-image: none;
-  border: 1px solid transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 4px;
 }
-/* line 203, ../sass/bootstrap/_navbar.scss */
+/* line 202, ../sass/bootstrap/_navbar.scss */
 .navbar-toggle:focus {
   outline: 0;
 }
-/* line 208, ../sass/bootstrap/_navbar.scss */
+/* line 207, ../sass/bootstrap/_navbar.scss */
 .navbar-toggle .icon-bar {
   display: block;
   width: 22px;
   height: 2px;
   border-radius: 1px;
 }
-/* line 214, ../sass/bootstrap/_navbar.scss */
+/* line 213, ../sass/bootstrap/_navbar.scss */
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
 @media (min-width: 768px) {
-  /* line 190, ../sass/bootstrap/_navbar.scss */
+  /* line 189, ../sass/bootstrap/_navbar.scss */
   .navbar-toggle {
     display: none;
   }
 }
 
-/* line 229, ../sass/bootstrap/_navbar.scss */
+/* line 228, ../sass/bootstrap/_navbar.scss */
 .navbar-nav {
   margin: 7.5px -15px;
 }
-/* line 232, ../sass/bootstrap/_navbar.scss */
+/* line 231, ../sass/bootstrap/_navbar.scss */
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
 }
 @media (max-width: 767px) {
-  /* line 240, ../sass/bootstrap/_navbar.scss */
+  /* line 239, ../sass/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
@@ -5332,53 +5331,53 @@ tbody.collapse.in {
     border: 0;
     box-shadow: none;
   }
-  /* line 248, ../sass/bootstrap/_navbar.scss */
+  /* line 247, ../sass/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header {
     padding: 5px 15px 5px 25px;
   }
-  /* line 252, ../sass/bootstrap/_navbar.scss */
+  /* line 251, ../sass/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu > li > a {
     line-height: 20px;
   }
-  /* line 254, ../sass/bootstrap/_navbar.scss */
+  /* line 253, ../sass/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
     background-image: none;
   }
 }
 @media (min-width: 768px) {
-  /* line 229, ../sass/bootstrap/_navbar.scss */
+  /* line 228, ../sass/bootstrap/_navbar.scss */
   .navbar-nav {
     float: left;
     margin: 0;
   }
-  /* line 267, ../sass/bootstrap/_navbar.scss */
+  /* line 266, ../sass/bootstrap/_navbar.scss */
   .navbar-nav > li {
     float: left;
   }
-  /* line 269, ../sass/bootstrap/_navbar.scss */
+  /* line 268, ../sass/bootstrap/_navbar.scss */
   .navbar-nav > li > a {
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  /* line 275, ../sass/bootstrap/_navbar.scss */
+  /* line 274, ../sass/bootstrap/_navbar.scss */
   .navbar-nav.navbar-right:last-child {
     margin-right: -15px;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 289, ../sass/bootstrap/_navbar.scss */
+  /* line 288, ../sass/bootstrap/_navbar.scss */
   .navbar-left {
     float: left !important;
   }
 
-  /* line 292, ../sass/bootstrap/_navbar.scss */
+  /* line 291, ../sass/bootstrap/_navbar.scss */
   .navbar-right {
     float: right !important;
   }
 }
-/* line 303, ../sass/bootstrap/_navbar.scss */
+/* line 302, ../sass/bootstrap/_navbar.scss */
 .navbar-form {
   margin-left: -15px;
   margin-right: -15px;
@@ -5391,13 +5390,13 @@ tbody.collapse.in {
   margin-bottom: 8px;
 }
 @media (max-width: 767px) {
-  /* line 315, ../sass/bootstrap/_navbar.scss */
+  /* line 314, ../sass/bootstrap/_navbar.scss */
   .navbar-form .form-group {
     margin-bottom: 5px;
   }
 }
 @media (min-width: 768px) {
-  /* line 303, ../sass/bootstrap/_navbar.scss */
+  /* line 302, ../sass/bootstrap/_navbar.scss */
   .navbar-form {
     width: auto;
     border: 0;
@@ -5408,262 +5407,267 @@ tbody.collapse.in {
     -webkit-box-shadow: none;
     box-shadow: none;
   }
-  /* line 335, ../sass/bootstrap/_navbar.scss */
+  /* line 334, ../sass/bootstrap/_navbar.scss */
   .navbar-form.navbar-right:last-child {
     margin-right: -15px;
   }
 }
 
-/* line 345, ../sass/bootstrap/_navbar.scss */
+/* line 344, ../sass/bootstrap/_navbar.scss */
 .navbar-nav > li > .dropdown-menu {
   margin-top: 0;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
 
-/* line 350, ../sass/bootstrap/_navbar.scss */
+/* line 349, ../sass/bootstrap/_navbar.scss */
 .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 
-/* line 359, ../sass/bootstrap/_navbar.scss */
+/* line 358, ../sass/bootstrap/_navbar.scss */
 .navbar-btn {
   margin-top: 8px;
   margin-bottom: 8px;
 }
-/* line 362, ../sass/bootstrap/_navbar.scss */
+/* line 361, ../sass/bootstrap/_navbar.scss */
 .navbar-btn.btn-sm, .btn-group-sm > .navbar-btn.btn {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 365, ../sass/bootstrap/_navbar.scss */
+/* line 364, ../sass/bootstrap/_navbar.scss */
 .navbar-btn.btn-xs, .btn-group-xs > .navbar-btn.btn {
   margin-top: 14px;
   margin-bottom: 14px;
 }
 
-/* line 375, ../sass/bootstrap/_navbar.scss */
+/* line 374, ../sass/bootstrap/_navbar.scss */
 .navbar-text {
   margin-top: 15px;
   margin-bottom: 15px;
 }
 @media (min-width: 768px) {
-  /* line 375, ../sass/bootstrap/_navbar.scss */
+  /* line 374, ../sass/bootstrap/_navbar.scss */
   .navbar-text {
     float: left;
     margin-left: 15px;
     margin-right: 15px;
   }
-  /* line 384, ../sass/bootstrap/_navbar.scss */
+  /* line 383, ../sass/bootstrap/_navbar.scss */
   .navbar-text.navbar-right:last-child {
     margin-right: 0;
   }
 }
 
-/* line 394, ../sass/bootstrap/_navbar.scss */
+/* line 393, ../sass/bootstrap/_navbar.scss */
 .navbar-default {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
 }
-/* line 398, ../sass/bootstrap/_navbar.scss */
+/* line 397, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand {
   color: #777;
 }
-/* line 400, ../sass/bootstrap/_navbar.scss */
+/* line 399, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
   color: #5e5e5e;
   background-color: transparent;
 }
-/* line 407, ../sass/bootstrap/_navbar.scss */
+/* line 406, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-text {
   color: #777;
 }
-/* line 412, ../sass/bootstrap/_navbar.scss */
+/* line 411, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a {
   color: #777;
 }
-/* line 415, ../sass/bootstrap/_navbar.scss */
+/* line 414, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   background-color: transparent;
 }
-/* line 421, ../sass/bootstrap/_navbar.scss */
+/* line 420, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #555;
   background-color: #e7e7e7;
 }
-/* line 429, ../sass/bootstrap/_navbar.scss */
+/* line 428, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
   color: #ccc;
   background-color: transparent;
 }
-/* line 438, ../sass/bootstrap/_navbar.scss */
+/* line 437, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-toggle {
   border-color: none;
 }
-/* line 440, ../sass/bootstrap/_navbar.scss */
+/* line 439, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: transparent;
 }
-/* line 449, ../sass/bootstrap/_navbar.scss */
+/* line 448, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: #e7e7e7;
 }
-/* line 458, ../sass/bootstrap/_navbar.scss */
+/* line 457, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
   background-color: #e7e7e7;
   color: #555;
 }
 @media (max-width: 767px) {
-  /* line 469, ../sass/bootstrap/_navbar.scss */
+  /* line 468, ../sass/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #777;
   }
-  /* line 471, ../sass/bootstrap/_navbar.scss */
+  /* line 470, ../sass/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #333;
     background-color: transparent;
   }
-  /* line 478, ../sass/bootstrap/_navbar.scss */
+  /* line 477, ../sass/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #555;
     background-color: #e7e7e7;
   }
-  /* line 486, ../sass/bootstrap/_navbar.scss */
+  /* line 485, ../sass/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
     color: #ccc;
     background-color: transparent;
   }
 }
-/* line 502, ../sass/bootstrap/_navbar.scss */
+/* line 501, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-link {
   color: #777;
 }
-/* line 504, ../sass/bootstrap/_navbar.scss */
+/* line 503, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-link:hover {
   color: #333;
 }
-/* line 509, ../sass/bootstrap/_navbar.scss */
+/* line 508, ../sass/bootstrap/_navbar.scss */
 .navbar-default .btn-link {
   color: #777;
 }
-/* line 511, ../sass/bootstrap/_navbar.scss */
+/* line 510, ../sass/bootstrap/_navbar.scss */
 .navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
   color: #333;
 }
-/* line 517, ../sass/bootstrap/_navbar.scss */
+/* line 516, ../sass/bootstrap/_navbar.scss */
 .navbar-default .btn-link[disabled]:hover, .navbar-default .btn-link[disabled]:focus, fieldset[disabled] .navbar-default .btn-link:hover, fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 
-/* line 527, ../sass/bootstrap/_navbar.scss */
+/* line 526, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse {
   background-color: #222;
   border-color: #090909;
 }
-/* line 531, ../sass/bootstrap/_navbar.scss */
+/* line 530, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-brand {
   color: #777777;
 }
-/* line 533, ../sass/bootstrap/_navbar.scss */
+/* line 532, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
   color: #fff;
   background-color: transparent;
 }
-/* line 540, ../sass/bootstrap/_navbar.scss */
+/* line 539, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-text {
   color: #777777;
 }
-/* line 545, ../sass/bootstrap/_navbar.scss */
+/* line 544, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > li > a {
   color: #777777;
 }
-/* line 548, ../sass/bootstrap/_navbar.scss */
+/* line 547, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
   color: #fff;
   background-color: transparent;
 }
-/* line 555, ../sass/bootstrap/_navbar.scss */
+/* line 554, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
   color: #fff;
   background-color: #090909;
 }
-/* line 563, ../sass/bootstrap/_navbar.scss */
+/* line 562, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
   color: #444;
   background-color: transparent;
 }
-/* line 573, ../sass/bootstrap/_navbar.scss */
+/* line 572, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-toggle {
   border-color: #333;
 }
-/* line 575, ../sass/bootstrap/_navbar.scss */
+/* line 574, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
   background-color: #333;
 }
-/* line 579, ../sass/bootstrap/_navbar.scss */
+/* line 578, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #fff;
 }
-/* line 584, ../sass/bootstrap/_navbar.scss */
+/* line 583, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
   border-color: #101010;
 }
-/* line 592, ../sass/bootstrap/_navbar.scss */
+/* line 591, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
   background-color: #090909;
   color: #fff;
 }
 @media (max-width: 767px) {
-  /* line 603, ../sass/bootstrap/_navbar.scss */
+  /* line 602, ../sass/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #090909;
   }
-  /* line 606, ../sass/bootstrap/_navbar.scss */
+  /* line 605, ../sass/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
     background-color: #090909;
   }
-  /* line 609, ../sass/bootstrap/_navbar.scss */
+  /* line 608, ../sass/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
     color: #777777;
   }
-  /* line 611, ../sass/bootstrap/_navbar.scss */
+  /* line 610, ../sass/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #fff;
     background-color: transparent;
   }
-  /* line 618, ../sass/bootstrap/_navbar.scss */
+  /* line 617, ../sass/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #fff;
     background-color: #090909;
   }
-  /* line 626, ../sass/bootstrap/_navbar.scss */
+  /* line 625, ../sass/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
     color: #444;
     background-color: transparent;
   }
 }
-/* line 637, ../sass/bootstrap/_navbar.scss */
+/* line 636, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-link {
   color: #777777;
 }
-/* line 639, ../sass/bootstrap/_navbar.scss */
+/* line 638, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-link:hover {
   color: #fff;
 }
-/* line 644, ../sass/bootstrap/_navbar.scss */
+/* line 643, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .btn-link {
   color: #777777;
 }
-/* line 646, ../sass/bootstrap/_navbar.scss */
+/* line 645, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .btn-link:hover, .navbar-inverse .btn-link:focus {
   color: #fff;
 }
-/* line 652, ../sass/bootstrap/_navbar.scss */
+/* line 651, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .btn-link[disabled]:hover, .navbar-inverse .btn-link[disabled]:focus, fieldset[disabled] .navbar-inverse .btn-link:hover, fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444;
+}
+
+/* line 659, ../sass/bootstrap/_navbar.scss */
+navbar-custom.navbar-fixed-top.top-nav-collapse {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 /* line 6, ../sass/bootstrap/_breadcrumbs.scss */
@@ -8069,13 +8073,17 @@ html {
 #about-section .work_type {
   margin-top: 30px;
 }
+/* line 32, ../sass/_layout.scss */
+#about-section h2 {
+  text-transform: uppercase;
+}
 
-/* line 36, ../sass/_layout.scss */
+/* line 39, ../sass/_layout.scss */
 .portfolio-site-1 {
   padding: 30px;
 }
 
-/* line 40, ../sass/_layout.scss */
+/* line 43, ../sass/_layout.scss */
 .card {
   height: 250px;
   width: 360px;
@@ -8083,7 +8091,7 @@ html {
   border: 1px solid rgba(255, 255, 255, 0.5);
   position: relative;
 }
-/* line 47, ../sass/_layout.scss */
+/* line 50, ../sass/_layout.scss */
 .card .card-image .rollover {
   opacity: 0;
   -o-transition-duration: 1s;
@@ -8098,7 +8106,7 @@ html {
   width: 360px;
   z-index: 10;
 }
-/* line 61, ../sass/_layout.scss */
+/* line 64, ../sass/_layout.scss */
 .card .card-image .rollover:hover {
   opacity: .7;
   -o-transition-duration: 1s;
@@ -8109,16 +8117,27 @@ html {
   -moz-box-shadow: 0px 0px 4 #000;
   box-shadow: 0px 0px 4 #000;
 }
-/* line 73, ../sass/_layout.scss */
+/* line 76, ../sass/_layout.scss */
 .card .card-content h4 {
   color: #fff;
 }
-/* line 76, ../sass/_layout.scss */
+/* line 79, ../sass/_layout.scss */
 .card .card-content p {
   color: #fff;
 }
 
-/* line 83, ../sass/_layout.scss */
+/* line 86, ../sass/_layout.scss */
+#skillset-section .get {
+  display: none;
+}
+/* line 89, ../sass/_layout.scss */
+#skillset-section #diagram {
+  float: left;
+  width: 600px;
+  height: 600px;
+}
+
+/* line 100, ../sass/_layout.scss */
 footer {
   height: 100px;
 }
@@ -8129,15 +8148,15 @@ footer {
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 @media (min-width: 767px) {
-  /* line 9, ../sass/_scrolling-nav.scss */
+  /* line 7, ../sass/_scrolling-nav.scss */
   .navbar {
     padding: 20px 0;
-    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-    transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -webkit-transition: background 0.5s ease-in-out,padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out,padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out,padding 0.5s ease-in-out;
   }
 
-  /* line 16, ../sass/_scrolling-nav.scss */
+  /* line 13, ../sass/_scrolling-nav.scss */
   .top-nav-collapse {
     padding: 0;
   }
@@ -8145,7 +8164,7 @@ footer {
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
 of those sections to manage the look and feel of the site. */
-/* line 26, ../sass/_scrolling-nav.scss */
+/* line 21, ../sass/_scrolling-nav.scss */
 .intro-section {
   height: 100%;
   padding-top: 150px;
@@ -8153,15 +8172,25 @@ of those sections to manage the look and feel of the site. */
   background: #fff;
 }
 
-/* line 33, ../sass/_scrolling-nav.scss */
+/* line 27, ../sass/_scrolling-nav.scss */
 #about-section {
   height: 100%;
-  padding-top: 150px;
+  padding-top: 120px;
   text-align: center;
   background: #eee;
 }
+/* line 32, ../sass/_scrolling-nav.scss */
+#about-section .about-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  -webkit-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
+}
 
-/* line 40, ../sass/_scrolling-nav.scss */
+/* line 42, ../sass/_scrolling-nav.scss */
 #portfolio-section {
   height: 850px;
   padding-top: 70px;
@@ -8171,16 +8200,24 @@ of those sections to manage the look and feel of the site. */
   background-size: cover;
   background-position: center center;
 }
-/* line 48, ../sass/_scrolling-nav.scss */
+/* line 50, ../sass/_scrolling-nav.scss */
 #portfolio-section h2 {
   color: #fff;
 }
-/* line 51, ../sass/_scrolling-nav.scss */
+/* line 53, ../sass/_scrolling-nav.scss */
 #portfolio-section p {
   color: #fff;
 }
 
-/* line 56, ../sass/_scrolling-nav.scss */
+/* line 58, ../sass/_scrolling-nav.scss */
+#skillset-section {
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: #fff;
+}
+
+/* line 66, ../sass/_scrolling-nav.scss */
 #contact-section {
   height: 100%;
   padding-top: 150px;
@@ -8188,18 +8225,18 @@ of those sections to manage the look and feel of the site. */
   background: #eee;
 }
 
-/* line 63, ../sass/_scrolling-nav.scss */
+/* line 72, ../sass/_scrolling-nav.scss */
 #custom-nav.affix {
   top: 0;
   min-width: 100%;
   background-color: rgba(0, 0, 0, 0.4);
   opacity: 0.9;
-  -webkit-transition: background .5s ease-in-out, opacity .5s ease;
-  -moz-transition: background .5s ease-in-out, opacity .5s ease;
-  transition: background .5s ease-in-out, opacity .5s ease;
+  -webkit-transition: background 0.5s ease-in-out, opacity 0.5s ease;
+  -moz-transition: background 0.5s ease-in-out, opacity 0.5s ease;
+  transition: background 0.5s ease-in-out, opacity 0.5s ease;
 }
 
-/* line 73, ../sass/_scrolling-nav.scss */
+/* line 81, ../sass/_scrolling-nav.scss */
 #custom-nav {
   background-color: transparent;
   border: 0;
@@ -8207,9 +8244,9 @@ of those sections to manage the look and feel of the site. */
   z-index: 999;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transition: background .5s ease-in-out, opacity .5s ease;
-  -moz-transition: background .5s ease-in-out, opacity .5s ease;
-  transition: background .5s ease-in-out, opacity .5s ease;
+  -webkit-transition: background 0.5s ease-in-out, opacity 0.5s ease;
+  -moz-transition: background 0.5s ease-in-out, opacity 0.5s ease;
+  transition: background 0.5s ease-in-out, opacity 0.5s ease;
 }
 
 /*!
