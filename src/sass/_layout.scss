@@ -1,102 +1,95 @@
-#intro{
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    padding: 320px 0;
-    text-align: center;
-    vertical-align: middle;
-    color: #fff;
-    background: url(../img/mwdintro-bg.jpg) no-repeat ;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
+#intro {
+				display: inline-block;
+				width: 100%;
+				height: 100%;
+				padding: 320px 0;
+				text-align: center;
+				vertical-align: middle;
+				color: #fff;
+				background: url("https://unsplash.it/1158/700?image=575") no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+				background-position: center center;
 }
 
-.navbar-right{
-    margin-top: 5px;
-    .navbar-nav li a {
-    color: #fff;
-  }
+// Navbar Styling
+.navbar-right {
+				margin-top: 5px;
+				.navbar-nav li a {
+								color: #fff;
+								font-size: 1.3em;
+								&:hover {
+												color: #000;
+								}
+				}
 }
-
-.navbar-brand{
-   color: #fff;
-   font-weight: bold;
-   font-size: 24px;
+.navbar-brand {
+				color: #fff;
+				font-weight: bold;
+				font-size: 24px;
 }
-
-#about-section{
-   .work_type{
-     margin-top: 30px;
-   }
-   h2{
-     text-transform: uppercase;
-   }
+#about-section {
+				.work_type {
+								margin-top: 30px;
+				}
+				h2 {
+								text-transform: uppercase;
+				}
 }
-
-
-
-.portfolio-site-1{
-  padding: 30px;
+.portfolio-site-1 {
+				padding: 30px;
 }
-
-.card{
-  height: 250px;
-  width: 360px;
-  background-color: rgba(0,0,0,0.6);
-  border: 1px solid rgba(255,255,255,0.5);
-  position: relative;
-  .card-image{
-     .rollover{
-       opacity: 0;
-       -o-transition-duration: 1s;
-       -moz-transition-duration: 1s;
-       -webkit-transition-duration: 1s;
-       transition-duration: 1s;
-       background: url(../img/circle-black-on-white.png) center no-repeat #000;
-       background-size: 60px;
-       cursor: pointer;
-       height: 125px;
-       position: absolute;
-       width: 360px;
-       z-index: 10;
-     }
-    .rollover:hover{
-       opacity: .7;
-       -o-transition-duration: 1s;
-       -moz-transition-duration: 1s;
-       -webkit-transition-duration: 1s;
-       transition-duration: 1s;
-       -webkit-box-shadow: 0px 0px 4 #000;
-       -moz-box-shadow: 0px 0px 4 #000;
-       box-shadow: 0px 0px 4 #000;
-     }
-  }
-  .card-content{
-    h4{
-      color: #fff;
-    }
-    p{
-      color: #fff
-    }
-  }
+.card {
+				height: 250px;
+				width: 360px;
+				background-color: rgba(0,0,0,0.6);
+				border: 1px solid rgba(255,255,255,0.5);
+				position: relative;
+				.card-image {
+								.rollover {
+												opacity: 0;
+												-o-transition-duration: 1s;
+												-moz-transition-duration: 1s;
+												-webkit-transition-duration: 1s;
+												transition-duration: 1s;
+												background: url("../img/circle-black-on-white.png") center no-repeat #000;
+												background-size: 60px;
+												cursor: pointer;
+												height: 125px;
+												position: absolute;
+												width: 358px;
+												z-index: 10;
+								}
+								.rollover:hover {
+												opacity: 0.7;
+												-o-transition-duration: 1s;
+												-moz-transition-duration: 1s;
+												-webkit-transition-duration: 1s;
+												transition-duration: 1s;
+												-webkit-box-shadow: 0 0 4 #000;
+												-moz-box-shadow: 0 0 4 #000;
+												box-shadow: 0 0 4 #000;
+								}
+				}
+				.card-content {
+								h4 {
+												color: #fff;
+								}
+								p {
+												color: #fff;
+								}
+				}
 }
-
-#skillset-section{
-  .get{
-    display: none
-  }
-  #diagram {
-    float: left;
-    width: 600px;
-    height: 600px;
-  }
+#skillset-section {
+				.get {
+								display: none;
+				}
+				#diagram {
+								float: left;
+								width: 600px;
+								height: 600px;
+				}
 }
-
-
-
-
-
-footer{
-  height: 100px;
+footer {
+				height: 100px;
 }
