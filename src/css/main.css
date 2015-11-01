@@ -8202,7 +8202,7 @@ of those sections to manage the look and feel of the site. */
   height: 850px;
   padding-top: 70px;
   text-align: center;
-  background: url("https://unsplash.it/1200/780?image=668") no-repeat;
+  background: url("https://unsplash.it/1200/780?image=715") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
@@ -8224,7 +8224,7 @@ of those sections to manage the look and feel of the site. */
   background: #fff;
 }
 
-/* line 68, ../sass/_scrolling-nav.scss */
+/* line 69, ../sass/_scrolling-nav.scss */
 #contact-section {
   height: 100%;
   padding-top: 150px;
@@ -8232,7 +8232,7 @@ of those sections to manage the look and feel of the site. */
   background: #eee;
 }
 
-/* line 74, ../sass/_scrolling-nav.scss */
+/* line 75, ../sass/_scrolling-nav.scss */
 #custom-nav.affix {
   top: 0;
   min-width: 100%;
@@ -8244,7 +8244,7 @@ of those sections to manage the look and feel of the site. */
   transition: background 0.5s ease-in-out, opacity 0.5s ease;
 }
 
-/* line 84, ../sass/_scrolling-nav.scss */
+/* line 85, ../sass/_scrolling-nav.scss */
 #custom-nav {
   background-color: transparent;
   border: 0;

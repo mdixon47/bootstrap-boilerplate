@@ -45,7 +45,7 @@ of those sections to manage the look and feel of the site. */
 				height: 850px;
 				padding-top: 70px;
 				text-align: center;
-				background: url("https://unsplash.it/1200/780?image=668") no-repeat;
+				background: url("https://unsplash.it/1200/780?image=715") no-repeat;
 				background-attachment: fixed;
 				background-size: cover;
 				background-position: center center;
@@ -64,6 +64,12 @@ of those sections to manage the look and feel of the site. */
   background: #fff;
 
 }
+
+canvas{
+	width: 180px;
+	height: 180px
+}
+
 
 #contact-section {
 				height: 100%;
