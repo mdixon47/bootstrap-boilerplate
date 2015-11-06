@@ -41,7 +41,7 @@ html
 			.intro-body
 				.container
 					.row
-						.col-md-8.col-md-offset-2
+						.col-md-8.col-md-offset-2.animated.fadeInDown
 							h1.brand-heading Internet Marketer and Front-End Developer
 							p.intro-text Building and creating Internet marketing and Web application solutions.
 							.page-scroll 
@@ -53,8 +53,9 @@ html
 		section#about-section.text-center
 			.container
 				.row
-					.col-lg-12
+					.col-lg-4.about-pic
 						img.about-img
+					.col-lg-8.about-info
 						h2 Let me introduce myself
 						p 
 							| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequawt.
@@ -66,16 +67,17 @@ html
 							| .
 						p
 							| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+
 				.container.work_type
-					.col-md-4
-						h3 Coding
+					.col-md-4.type_job1
+						h3 Web Development
 						p
 						| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-					.col-md-4
+					.col-md-4.type_job2
 						h3 Internet Marketing
 						p
 						| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-					.col-md-4
+					.col-md.type_job3
 						h3 Web Design
 						p
 						| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
@@ -83,11 +85,11 @@ html
 		section#portfolio-section.content-section.text-center
 			.portfolio-section
 				.container
-					.col-lg-12
+					.col-lg-12.portfolio_title.animated.fadeInDown
 						h2 My Work
 						p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
 
-				.portfolio-site-1
+				.portfolio-site-1.animated.fadeInDown
 					.container
 						.row
 							.col-md-4
@@ -119,7 +121,7 @@ html
 										h4 Web Site 3
 										p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-				.portfolio-site-2				
+				.portfolio-site-2.animated.fadeInDown				
 					.container
 						.row
 							.col-md-4
@@ -156,34 +158,129 @@ html
 		section#skillset-section
 			.container
 				.row
+					.col-lg-12.skillset_title
+						h2 My Internet Marketing Abilities
+						p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					.container.skillset.marketing
+						.chart(data-percent='95') 
+							p.title SEO 
+						.chart(data-percent='90') 
+							p.title PPC
+						.chart(data-percent='80')
+							p.title Analytics
+						.chart(data-percent='75')
+							p.title IM Strategies
+						.chart(data-percent='80')
+							p.title Link Building
+					.col-lg-12.develop_title
+						h2 My Web Development Abilities
+						p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					.container.skillset.develop
+						.chart(data-percent='90') 
+							p.title HTML 
+						.chart(data-percent='90') 
+							p.title CSS3
+						.chart(data-percent='80')
+							p.title JavaScript
+						.chart(data-percent='75')
+							p.title NodeJS 
+						.chart(data-percent='50')
+							p.title AngularJS 
+
+
+		section#testimonials-section
+			.container
+				.row
 					.col-lg-12
-					h2 This is what I do
-					p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-					.mycanvas
-				
+							h2 Testimonials
+							#tcb-testimonial-carousel.carousel.slide(data-ride='carousel')
+								ol.carousel-indicators
+									li.active(data-target='#tcb-testimonial-carousel', data-slide-to='0')               
+									li(data-target='#tcb-testimonial-carousel', data-slide-to='1')
 
-
+									li(data-target='#tcb-testimonial-carousel', data-slide-to='2')
+								// Wrapper for slides
+								.carousel-inner
+									.item.active
+										.row
+											.col-xs-12
+												figure.clearfix
+													.col-md-2.col-sm-2.col-xs-12
+														img.img-responsive.media-object(src='https://s3.amazonaws.com/uifaces/faces/twitter/mantia/128.jpg')                              
+													.col-md-10.col-sm-10.col-xs-12
+														figcaption.caption
+															p.text-brand.lead.no-margin I can&apos;t wait to test this out.                                       
+															p
+																span.glyphicon.glyphicon-thumbs-up
+																| &nbsp;This is a testimonial window. Feedback of user can be displayed here.                                       
+															blockquote.no-margin
+																p Someone Famous
+																|  
+																small
+																	cite(title='Source Title')
+																		i.glyphicon.glyphicon-globe
+																		|  www.example1.com               
+									.item
+										.row
+											.col-xs-12
+												figure.clearfix
+													.col-md-2.col-sm-2.col-xs-12
+														img.img-responsive.media-object(src='https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg')                          
+													.col-md-10.col-sm-10.col-xs-12
+														figcaption.caption
+															p.text-brand.lead.no-margin I can &apos;t wait to test this out.                                       
+															p
+																span.glyphicon.glyphicon-thumbs-up
+																| &nbsp;This is a testimonial window. Feedback of user can be displayed here.										                                      
+																blockquote.no-margin
+																	p Someone Famous
+																	|  
+																	small
+																		cite(title='Source Title')
+																			i.glyphicon.glyphicon-globe
+																			|  www.example1.com							               
+									.item
+										.row
+											.col-xs-12
+												figure.clearfix
+													.col-md-2.col-sm-2.col-xs-12
+														img.img-responsive.media-object(src='https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg')            
+													.col-md-10.col-sm-10.col-xs-12
+														figcaption.caption
+															p.text-brand.lead.no-margin I can&apos;t wait to test this out.                                       
+															p
+																span.glyphicon.glyphicon-thumbs-up
+																| &nbsp;This is a testimonial window. Feedback of user can be displayed here.	                                     
+															blockquote.no-margin
+																p Someone Famous
+																|  
+																small
+																	cite(title='Source Title')
+																		i.glyphicon.glyphicon-globe
+																		|  www.example1.com
+								// Controls
 
 
 		section#contact-section.text-center
 				.container
-					.col-lg-8.col-lg-offset-2
-						h2 Contact me
-						p
-						| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-						ul.list-inline.banner-social-buttons
-							li
-								a.btn.btn-default.btn-lg(href="https://twitter.com/mdixon2009")
-									i.fa.fa-twitter.fa-fw
-									span.network-name Twitter
-							li
-								a.btn.btn-default.btn-lg(href="https//github.com/mdixon47") 
-									i.fa.fa-github.fa-fw
-									span.network-name Github
-							li 
-								a.btn.btn-default.btn-lg(href="#")
-									i.fa.fa-google-plus.fa-fw
-									span.network-name Google+
+					.row
+						.col-lg-8.col-lg-offset-2
+							h2 Contact me
+							p
+							| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+							ul.list-inline.banner-social-buttons
+								li
+									a.btn.btn-default.btn-lg(href="https://twitter.com/mdixon2009")
+										i.fa.fa-twitter.fa-fw
+										span.network-name Twitter
+								li
+									a.btn.btn-default.btn-lg(href="https//github.com/mdixon47") 
+										i.fa.fa-github.fa-fw
+										span.network-name Github
+								li 
+									a.btn.btn-default.btn-lg(href="#")
+										i.fa.fa-google-plus.fa-fw
+										span.network-name Google+  
 
 
 
@@ -194,6 +291,9 @@ html
 					p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 
-	script(type="text/javascript", src="http://code.jquery.com/jquery-1.11.0.min.js")
-	script(type="text/javascript", src="js/main.js")
-	script(type="text/javascript", src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js")
+		script(type="text/javascript", src="http://code.jquery.com/jquery-1.11.0.min.js")
+		script(type="text/javascript", src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js")
+		script(type="text/javascript", src="js/main.js")
+		script(type="text/javascript", src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js")
+		script(type="text/javascript", src="http://rendro.github.io/easy-pie-chart/javascripts/jquery.easy-pie-chart.js")
+		

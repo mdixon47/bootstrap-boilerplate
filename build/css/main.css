@@ -8047,7 +8047,7 @@ html {
   text-align: center;
   vertical-align: middle;
   color: #fff;
-  background: url("https://unsplash.it/1158/700?image=575") no-repeat;
+  background: url("https://unsplash.it/1158/700?image=884") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
@@ -8089,6 +8089,12 @@ html {
 }
 
 /* line 42, ../sass/_layout.scss */
+#myCanvas canvas {
+  width: 180px;
+  height: 180px;
+}
+
+/* line 46, ../sass/_layout.scss */
 .card {
   height: 250px;
   width: 360px;
@@ -8096,7 +8102,7 @@ html {
   border: 1px solid rgba(255, 255, 255, 0.5);
   position: relative;
 }
-/* line 49, ../sass/_layout.scss */
+/* line 53, ../sass/_layout.scss */
 .card .card-image .rollover {
   opacity: 0;
   -o-transition-duration: 1s;
@@ -8111,7 +8117,7 @@ html {
   width: 358px;
   z-index: 10;
 }
-/* line 63, ../sass/_layout.scss */
+/* line 67, ../sass/_layout.scss */
 .card .card-image .rollover:hover {
   opacity: 0.7;
   -o-transition-duration: 1s;
@@ -8122,27 +8128,111 @@ html {
   -moz-box-shadow: 0 0 4 #000;
   box-shadow: 0 0 4 #000;
 }
-/* line 75, ../sass/_layout.scss */
+/* line 79, ../sass/_layout.scss */
 .card .card-content h4 {
   color: #fff;
 }
-/* line 78, ../sass/_layout.scss */
+/* line 82, ../sass/_layout.scss */
 .card .card-content p {
   color: #fff;
 }
 
-/* line 84, ../sass/_layout.scss */
-#skillset-section .get {
-  display: none;
+/* line 90, ../sass/_layout.scss */
+#skillset-section .skillset {
+  padding: 30px 40px;
+  text-align: center;
 }
-/* line 87, ../sass/_layout.scss */
-#skillset-section #diagram {
-  float: left;
-  width: 600px;
-  height: 600px;
+/* line 93, ../sass/_layout.scss */
+#skillset-section .skillset .chart {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  color: #000;
+}
+/* line 98, ../sass/_layout.scss */
+#skillset-section .skillset .chart .title {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+/* line 105, ../sass/_layout.scss */
+#skillset-section .skillset canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-/* line 93, ../sass/_layout.scss */
+/* testimonials-section */
+/* line 115, ../sass/_layout.scss */
+#testimonials-section {
+  background: url("https://unsplash.it/1158/700?blur") no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+}
+/* line 122, ../sass/_layout.scss */
+#testimonials-section h2 {
+  margin-top: 110px;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 129, ../sass/_layout.scss */
+#tcb-testimonial-carousel {
+  height: 300px;
+  width: 900px;
+  padding: 0;
+  margin-top: 30px;
+  margin-left: 190px;
+}
+/* line 135, ../sass/_layout.scss */
+#tcb-testimonial-carousel .carousel-indicators {
+  margin-left: -340px;
+}
+/* line 138, ../sass/_layout.scss */
+#tcb-testimonial-carousel .no-margin {
+  margin: 0;
+}
+/* line 142, ../sass/_layout.scss */
+#tcb-testimonial-carousel a {
+  color: #fff;
+}
+/* line 145, ../sass/_layout.scss */
+#tcb-testimonial-carousel .item {
+  padding: 40px 40px;
+}
+/* line 148, ../sass/_layout.scss */
+#tcb-testimonial-carousel .media-object {
+  margin: auto;
+}
+/* line 151, ../sass/_layout.scss */
+#tcb-testimonial-carousel img {
+  border-radius: 50%;
+  border: 5px solid #fff;
+  -webkit-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
+}
+/* line 158, ../sass/_layout.scss */
+#tcb-testimonial-carousel figcaption {
+  color: #fff;
+}
+/* line 161, ../sass/_layout.scss */
+#tcb-testimonial-carousel caption {
+  color: #fff;
+}
+/* line 164, ../sass/_layout.scss */
+#tcb-testimonial-carousel blockquote {
+  color: #fff;
+}
+/* line 167, ../sass/_layout.scss */
+#tcb-testimonial-carousel blockquote cite {
+  color: #fff;
+}
+
+/* line 173, ../sass/_layout.scss */
 footer {
   height: 100px;
 }
@@ -8183,13 +8273,14 @@ of those sections to manage the look and feel of the site. */
   padding-top: 120px;
   text-align: center;
   background: #eee;
+  opacity: 0;
 }
-/* line 32, ../sass/_scrolling-nav.scss */
+/* line 33, ../sass/_scrolling-nav.scss */
 #about-section .about-img {
-  background: url("../img/malikdixon_sm.png") no-repeat center center;
-  background-size: 200px;
-  height: 180px;
-  width: 180px;
+  background: url("../img/malikdixon.png") no-repeat center center;
+  background-size: 290px;
+  height: 260px;
+  width: 260px;
   border-radius: 50%;
   border: 5px solid #fff;
   -webkit-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
@@ -8197,7 +8288,7 @@ of those sections to manage the look and feel of the site. */
   box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
 }
 
-/* line 44, ../sass/_scrolling-nav.scss */
+/* line 45, ../sass/_scrolling-nav.scss */
 #portfolio-section {
   height: 850px;
   padding-top: 70px;
@@ -8207,24 +8298,30 @@ of those sections to manage the look and feel of the site. */
   background-size: cover;
   background-position: center center;
 }
-/* line 52, ../sass/_scrolling-nav.scss */
+/* line 53, ../sass/_scrolling-nav.scss */
 #portfolio-section h2 {
   color: #fff;
 }
-/* line 55, ../sass/_scrolling-nav.scss */
+/* line 56, ../sass/_scrolling-nav.scss */
 #portfolio-section p {
   color: #fff;
 }
 
-/* line 60, ../sass/_scrolling-nav.scss */
+/* line 61, ../sass/_scrolling-nav.scss */
 #skillset-section {
-  height: 100%;
-  padding-top: 150px;
+  height: 800px;
+  padding-top: 100px;
   text-align: center;
   background: #fff;
 }
 
-/* line 69, ../sass/_scrolling-nav.scss */
+/* line 70, ../sass/_scrolling-nav.scss */
+canvas {
+  width: 180px;
+  height: 180px;
+}
+
+/* line 76, ../sass/_scrolling-nav.scss */
 #contact-section {
   height: 100%;
   padding-top: 150px;
@@ -8232,7 +8329,7 @@ of those sections to manage the look and feel of the site. */
   background: #eee;
 }
 
-/* line 75, ../sass/_scrolling-nav.scss */
+/* line 82, ../sass/_scrolling-nav.scss */
 #custom-nav.affix {
   top: 0;
   min-width: 100%;
@@ -8244,7 +8341,7 @@ of those sections to manage the look and feel of the site. */
   transition: background 0.5s ease-in-out, opacity 0.5s ease;
 }
 
-/* line 85, ../sass/_scrolling-nav.scss */
+/* line 92, ../sass/_scrolling-nav.scss */
 #custom-nav {
   background-color: transparent;
   border: 0;
