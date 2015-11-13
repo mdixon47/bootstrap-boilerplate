@@ -15,7 +15,7 @@ html
 				.navbar-header
 					button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex1-collapse')
 						span.sr-only Toggle navigation
-						
+
 						span.icon-bar
 						span.icon-bar
 						span.icon-bar
@@ -42,11 +42,10 @@ html
 			.intro-body
 				.container
 					.row
-						.col-md-6
+						.col-md-6.intro-content
 							h1.brand-heading Internet Marketer and Front-End Developer
-							p.intro-text Building and creating Internet marketing and Web application solutions.
-							.page-scroll 
-								a.btn.btn-circle.page-scroll(href='#about-section') 
+							p.intro-text Building and creating Internet marketing and Web application solutions. 
+							a.btn.btn-circle.page-scroll(href='#about-section') 
 								i.fa.fa-angle-double-down.animated
 
 
@@ -68,7 +67,7 @@ html
 						h3.text-center Web Development
 						p
 						| I have considerable experience with HTML5, CSS3, Responsive Web Design, JavaScript, JQuery and Content Management Systems (CMS) like WordPress.
-						
+
 					.col-md-4.type_job2.text-justify
 						h3.text-center Internet Marketing
 						p
@@ -188,92 +187,92 @@ html
 			.container
 				.row
 					.col-lg-12.testimonial
-							h2 Testimonials
-							#tcb-testimonial-carousel.carousel.slide(data-ride='carousel')
-								ol.carousel-indicators
-									li.active(data-target='#tcb-testimonial-carousel', data-slide-to='0')               
-									li(data-target='#tcb-testimonial-carousel', data-slide-to='1')
+						h2 Testimonials
+						#tcb-testimonial-carousel.carousel.slide(data-ride='carousel')
+							ol.carousel-indicators
+								li.active(data-target='#tcb-testimonial-carousel', data-slide-to='0')               
+								li(data-target='#tcb-testimonial-carousel', data-slide-to='1')
 
-									li(data-target='#tcb-testimonial-carousel', data-slide-to='2')
-								// Wrapper for slides
-								.carousel-inner
-									.item.active
-										.row
-											.col-xs-12
-												figure.clearfix
-													.col-md-2.col-sm-2.col-xs-12
-														img.img-responsive.media-object(src='img/callumkerr.jpg')                              
-													.col-md-10.col-sm-10.col-xs-12
-														figcaption.caption                                     
-															p
-																span.fa.fa-thumbs-up
-																| &nbsp; "Malik is very thorough, with an extensive knowledge of modern web practices and tools, marketing on web and social media."                                      
+								li(data-target='#tcb-testimonial-carousel', data-slide-to='2')
+							// Wrapper for slides
+							.carousel-inner
+								.item.active
+									.row
+										.col-xs-12
+											figure.clearfix
+												.col-md-2.col-sm-2.col-xs-12
+													img.img-responsive.media-object(src='img/callumkerr.jpg')                              
+												.col-md-10.col-sm-10.col-xs-12
+													figcaption.caption                                     
+														p
+															span.fa.fa-thumbs-up
+															| &nbsp; "Malik is very thorough, with an extensive knowledge of modern web practices and tools, marketing on web and social media."                                      
+														blockquote.no-margin
+															p Callum Kerr - Front-End Developer - Hot Pink Inc. (Imagine Agency)
+															|  
+															small
+																cite(title='Source Title')
+																	i.fa.fa-globe
+																	|  clov3vr.io              
+								.item
+									.row
+										.col-xs-12
+											figure.clearfix
+												.col-md-2.col-sm-2.col-xs-12
+													img.img-responsive.media-object(src='img/WesShell.jpg')                          
+												.col-md-10.col-sm-10.col-xs-12
+													figcaption.caption                                       
+														p
+															span.fa.fa-thumbs-up
+															| &nbsp; "Malik created the website for our wedding. He was very helpful and met all of our needs!"										                                      
 															blockquote.no-margin
-																p Callum Kerr - Front-End Developer - Hot Pink Inc. (Imagine Agency)
+																p Wes Shell - Senior Software Developer - Black Hills Corp
 																|  
 																small
 																	cite(title='Source Title')
 																		i.fa.fa-globe
-																		|  clov3vr.io              
-									.item
-										.row
-											.col-xs-12
-												figure.clearfix
-													.col-md-2.col-sm-2.col-xs-12
-														img.img-responsive.media-object(src='img/WesShell.jpg')                          
-													.col-md-10.col-sm-10.col-xs-12
-														figcaption.caption                                       
-															p
-																span.fa.fa-thumbs-up
-																| &nbsp; "Malik created the website for our wedding. He was very helpful and met all of our needs!"										                                      
-																blockquote.no-margin
-																	p Wes Shell - Senior Software Developer - Black Hills Corp
-																	|  
-																	small
-																		cite(title='Source Title')
-																			i.fa.fa-globe
-																			|  www.blackhillscorp.com						               
-									.item
-										.row
-											.col-xs-12
-												figure.clearfix
-													.col-md-2.col-sm-2.col-xs-12
-														img.img-responsive.media-object(src='img/tammys-pic.jpg')            
-													.col-md-10.col-sm-10.col-xs-12
-														figcaption.caption                                      
-															p
-																span.fa.fa-thumbs-up
-																| &nbsp; Malik is great to work with because he's very responsible, articulate, intelligent, motivated, has a great personality and willing to go the extra mile without being asked.                                    
-															blockquote.no-margin
-																p Tammy Sellars - Program Director - Community Education of the Black Hills
-																|  
-																small
-																	cite(title='Source Title')
-																		i.fa.fa-globe
-																		|  www.clcbh.org
-								// Controls
+																		|  www.blackhillscorp.com						               
+								.item
+									.row
+										.col-xs-12
+											figure.clearfix
+												.col-md-2.col-sm-2.col-xs-12
+													img.img-responsive.media-object(src='img/tammys-pic.jpg')            
+												.col-md-10.col-sm-10.col-xs-12
+													figcaption.caption                                      
+														p
+															span.fa.fa-thumbs-up
+															| &nbsp; Malik is great to work with because he's very responsible, articulate, intelligent, motivated, has a great personality and willing to go the extra mile without being asked.                                    
+														blockquote.no-margin
+															p Tammy Sellars - Program Director - Community Education of the Black Hills
+															|  
+															small
+																cite(title='Source Title')
+																	i.fa.fa-globe
+																	|  www.clcbh.org
+							// Controls
 
 
 		section#contact-section.text-center
-				.container
-					.row
-						.col-lg-8.col-lg-offset-2
-							h2 Contact me
-							p
-							| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-							ul.list-inline.banner-social-buttons
-								li
-									a.btn.btn-default.btn-lg(href="https://twitter.com/mdixon2009")
-										i.fa.fa-twitter.fa-fw
-										span.network-name Twitter
-								li
-									a.btn.btn-default.btn-lg(href="https//github.com/mdixon47") 
-										i.fa.fa-github.fa-fw
-										span.network-name Github
-								li 
-									a.btn.btn-default.btn-lg(href="#")
-										i.fa.fa-google-plus.fa-fw
-										span.network-name Google+  
+			.container
+				.row
+					.col-lg-8.col-lg-offset-2
+						h2 Contact me
+						p
+						| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+						ul.list-inline.banner-social-buttons
+							li
+								a.btn.btn-default.btn-lg(href="https://twitter.com/mdixon2009")
+									i.fa.fa-twitter.fa-fw
+									span.network-name Twitter
+							li
+								a.btn.btn-default.btn-lg(href="https//github.com/mdixon47") 
+									i.fa.fa-github.fa-fw
+									span.network-name Github
+							li 
+								a.btn.btn-default.btn-lg(href="#")
+									i.fa.fa-google-plus.fa-fw
+									span.network-name Google+  
 
 
 
@@ -288,5 +287,3 @@ html
 		script(type="text/javascript", src="http://rendro.github.io/easy-pie-chart/javascripts/jquery.easy-pie-chart.js")
 		script(type="text/javascript", src="js/main.js")
 		script(type="text/javascript", src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js")
-		
-		

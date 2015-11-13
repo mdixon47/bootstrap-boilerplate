@@ -8047,7 +8047,7 @@ html {
   text-align: center;
   vertical-align: middle;
   color: #fff;
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/macOnTable.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/macOnTable.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
@@ -8056,65 +8056,78 @@ html {
 /* line 15, ../sass/_layout.scss */
 #intro .intro-content {
   opacity: 0;
+  font-size: 1.5em;
+}
+/* line 18, ../sass/_layout.scss */
+#intro .intro-content .btn-circle {
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+  padding: 7px 16px;
+  border: 2px solid #fff;
+  border-radius: 35px;
+  font-size: 40px;
+  color: #fff;
+  background: 0 0;
 }
 
-/* line 21, ../sass/_layout.scss */
+/* line 34, ../sass/_layout.scss */
 .navbar-right {
   margin-top: 5px;
 }
-/* line 23, ../sass/_layout.scss */
+/* line 36, ../sass/_layout.scss */
 .navbar-right .navbar-nav li a {
   color: #fff;
   font-size: 1.3em;
 }
-/* line 26, ../sass/_layout.scss */
+/* line 39, ../sass/_layout.scss */
 .navbar-right .navbar-nav li a:hover {
   color: #000;
 }
 
-/* line 31, ../sass/_layout.scss */
+/* line 44, ../sass/_layout.scss */
 .navbar-brand {
   color: #fff;
   font-weight: bold;
   font-size: 24px;
 }
 
-/* line 36, ../sass/_layout.scss */
+/* line 49, ../sass/_layout.scss */
 #about-section {
   opacity: 0;
 }
-/* line 38, ../sass/_layout.scss */
+/* line 51, ../sass/_layout.scss */
 #about-section .work_type {
   margin-top: 30px;
 }
-/* line 41, ../sass/_layout.scss */
+/* line 54, ../sass/_layout.scss */
 #about-section h2 {
   text-transform: uppercase;
 }
 
-/* line 45, ../sass/_layout.scss */
+/* line 58, ../sass/_layout.scss */
 .portfolio_title {
   opacity: 0;
 }
 
-/* line 48, ../sass/_layout.scss */
+/* line 61, ../sass/_layout.scss */
 .portfolio-site-1 {
   padding: 30px;
   opacity: 0;
 }
 
-/* line 52, ../sass/_layout.scss */
+/* line 65, ../sass/_layout.scss */
 .portfolio-site-2 {
   opacity: 0;
 }
 
-/* line 55, ../sass/_layout.scss */
+/* line 68, ../sass/_layout.scss */
 #myCanvas canvas {
   width: 180px;
   height: 180px;
 }
 
-/* line 59, ../sass/_layout.scss */
+/* line 72, ../sass/_layout.scss */
 .card {
   height: 320px;
   width: 360px;
@@ -8122,7 +8135,7 @@ html {
   border: 1px solid rgba(255, 255, 255, 0.5);
   position: relative;
 }
-/* line 66, ../sass/_layout.scss */
+/* line 79, ../sass/_layout.scss */
 .card .card-image .rollover {
   opacity: 0;
   -o-transition-duration: 1s;
@@ -8137,7 +8150,7 @@ html {
   width: 358px;
   z-index: 10;
 }
-/* line 80, ../sass/_layout.scss */
+/* line 93, ../sass/_layout.scss */
 .card .card-image .rollover:hover {
   opacity: 0.7;
   -o-transition-duration: 1s;
@@ -8148,36 +8161,36 @@ html {
   -moz-box-shadow: 0 0 4 #000;
   box-shadow: 0 0 4 #000;
 }
-/* line 95, ../sass/_layout.scss */
+/* line 108, ../sass/_layout.scss */
 .card .card-content h4 {
   color: #fff;
 }
-/* line 98, ../sass/_layout.scss */
+/* line 111, ../sass/_layout.scss */
 .card .card-content p {
   color: #fff;
   padding: 0px 15px;
 }
 
-/* line 107, ../sass/_layout.scss */
+/* line 120, ../sass/_layout.scss */
 #skillset-section .skillset {
   padding: 30px 40px;
   text-align: center;
 }
-/* line 110, ../sass/_layout.scss */
+/* line 123, ../sass/_layout.scss */
 #skillset-section .skillset .chart {
   position: relative;
   display: inline-block;
   margin: 20px;
   color: #000;
 }
-/* line 115, ../sass/_layout.scss */
+/* line 128, ../sass/_layout.scss */
 #skillset-section .skillset .chart .title {
   margin-left: 20px;
   margin-top: 10px;
   font-weight: bold;
   font-size: 1.2em;
 }
-/* line 122, ../sass/_layout.scss */
+/* line 135, ../sass/_layout.scss */
 #skillset-section .skillset canvas {
   position: absolute;
   top: 0;
@@ -8185,26 +8198,26 @@ html {
 }
 
 /* testimonials-section */
-/* line 132, ../sass/_layout.scss */
+/* line 145, ../sass/_layout.scss */
 #testimonials-section {
-  background: url("https://unsplash.it/1158/700?blur") no-repeat;
+  background: linear-gradient(rgba(28, 48, 133, 0.5), rgba(28, 48, 130, 0.5)), url("../img/bg.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   height: 500px;
 }
-/* line 139, ../sass/_layout.scss */
+/* line 152, ../sass/_layout.scss */
 #testimonials-section .testimonial {
   opacity: 0;
 }
-/* line 143, ../sass/_layout.scss */
+/* line 156, ../sass/_layout.scss */
 #testimonials-section h2 {
   margin-top: 110px;
   text-align: center;
   color: #fff;
 }
 
-/* line 150, ../sass/_layout.scss */
+/* line 163, ../sass/_layout.scss */
 #tcb-testimonial-carousel {
   height: 300px;
   width: 900px;
@@ -8212,31 +8225,31 @@ html {
   margin-top: 30px;
   margin-left: 190px;
 }
-/* line 156, ../sass/_layout.scss */
+/* line 169, ../sass/_layout.scss */
 #tcb-testimonial-carousel .carousel-indicators {
   margin-left: -340px;
 }
-/* line 159, ../sass/_layout.scss */
+/* line 172, ../sass/_layout.scss */
 #tcb-testimonial-carousel .no-margin {
   margin: 0;
 }
-/* line 161, ../sass/_layout.scss */
+/* line 174, ../sass/_layout.scss */
 #tcb-testimonial-carousel .no-margin p {
   font-size: 1em;
 }
-/* line 167, ../sass/_layout.scss */
+/* line 180, ../sass/_layout.scss */
 #tcb-testimonial-carousel a {
   color: #fff;
 }
-/* line 170, ../sass/_layout.scss */
+/* line 183, ../sass/_layout.scss */
 #tcb-testimonial-carousel .item {
   padding: 40px 40px;
 }
-/* line 173, ../sass/_layout.scss */
+/* line 186, ../sass/_layout.scss */
 #tcb-testimonial-carousel .media-object {
   margin: auto;
 }
-/* line 177, ../sass/_layout.scss */
+/* line 190, ../sass/_layout.scss */
 #tcb-testimonial-carousel .img-responsive {
   margin-left: -35px;
   border-radius: 50%;
@@ -8246,26 +8259,26 @@ html {
   -moz-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
   box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
 }
-/* line 186, ../sass/_layout.scss */
+/* line 199, ../sass/_layout.scss */
 #tcb-testimonial-carousel figcaption {
   color: #fff;
   font-size: 1.5em;
 }
-/* line 190, ../sass/_layout.scss */
+/* line 203, ../sass/_layout.scss */
 #tcb-testimonial-carousel caption {
   color: #fff;
   font-size: 1.5em;
 }
-/* line 194, ../sass/_layout.scss */
+/* line 207, ../sass/_layout.scss */
 #tcb-testimonial-carousel blockquote {
   color: #fff;
 }
-/* line 197, ../sass/_layout.scss */
+/* line 210, ../sass/_layout.scss */
 #tcb-testimonial-carousel blockquote cite {
   color: #fff;
 }
 
-/* line 203, ../sass/_layout.scss */
+/* line 216, ../sass/_layout.scss */
 footer {
   height: 100px;
 }
@@ -8328,54 +8341,54 @@ of those sections to manage the look and feel of the site. */
 
 /* line 49, ../sass/_scrolling-nav.scss */
 #portfolio-section {
-  height: 950px;
-  padding-top: 50px;
+  height: 1000px;
+  padding-top: 100px;
   text-align: center;
-  background: url("https://unsplash.it/1200/780?image=715") no-repeat;
+  background: linear-gradient(rgba(174, 136, 75, 0.5), rgba(174, 136, 75, 0.5)), url("../img/bg.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
 }
-/* line 57, ../sass/_scrolling-nav.scss */
+/* line 58, ../sass/_scrolling-nav.scss */
 #portfolio-section h2 {
   color: #fff;
 }
-/* line 60, ../sass/_scrolling-nav.scss */
+/* line 61, ../sass/_scrolling-nav.scss */
 #portfolio-section p {
   color: #fff;
 }
 
-/* line 65, ../sass/_scrolling-nav.scss */
+/* line 66, ../sass/_scrolling-nav.scss */
 #skillset-section {
   height: 800px;
   padding-top: 100px;
   text-align: center;
   background: #fff;
 }
-/* line 70, ../sass/_scrolling-nav.scss */
+/* line 71, ../sass/_scrolling-nav.scss */
 #skillset-section .skillset_title {
   opacity: 0;
 }
-/* line 73, ../sass/_scrolling-nav.scss */
+/* line 74, ../sass/_scrolling-nav.scss */
 #skillset-section .marketing {
   opacity: 0;
 }
-/* line 76, ../sass/_scrolling-nav.scss */
+/* line 77, ../sass/_scrolling-nav.scss */
 #skillset-section .develop_title {
   opacity: 0;
 }
-/* line 79, ../sass/_scrolling-nav.scss */
+/* line 80, ../sass/_scrolling-nav.scss */
 #skillset-section .develop {
   opacity: 0;
 }
 
-/* line 86, ../sass/_scrolling-nav.scss */
+/* line 87, ../sass/_scrolling-nav.scss */
 canvas {
   width: 180px;
   height: 180px;
 }
 
-/* line 92, ../sass/_scrolling-nav.scss */
+/* line 93, ../sass/_scrolling-nav.scss */
 #contact-section {
   height: 100%;
   padding-top: 150px;
@@ -8383,7 +8396,7 @@ canvas {
   background: #eee;
 }
 
-/* line 98, ../sass/_scrolling-nav.scss */
+/* line 99, ../sass/_scrolling-nav.scss */
 #custom-nav.affix {
   top: 0;
   min-width: 100%;
@@ -8395,7 +8408,7 @@ canvas {
   transition: background 0.5s ease-in-out, opacity 0.5s ease;
 }
 
-/* line 108, ../sass/_scrolling-nav.scss */
+/* line 109, ../sass/_scrolling-nav.scss */
 #custom-nav {
   background-color: transparent;
   border: 0;

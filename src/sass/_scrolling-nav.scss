@@ -47,10 +47,11 @@ of those sections to manage the look and feel of the site. */
 				}
 }
 #portfolio-section {
-				height: 950px;
-				padding-top: 50px;
+				height: 1000px;
+				padding-top: 100px;
 				text-align: center;
-				background: url("https://unsplash.it/1200/780?image=715") no-repeat;
+				background: linear-gradient(rgba(174, 136, 75, 0.5), rgba(174, 136, 75, 0.5)),
+	url('../img/bg.jpg');
 				background-attachment: fixed;
 				background-size: cover;
 				background-position: center center;
