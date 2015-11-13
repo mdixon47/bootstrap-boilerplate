@@ -63,8 +63,6 @@ $(document).ready(function(){
 
 });
 
-//Skillset Graph
-
 /*!
  * Chart.js
  * http://chartjs.org/
