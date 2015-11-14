@@ -9,7 +9,7 @@ $(document).ready(function(){
       scaleColor: "#000000",
       lineWidth: 10,
       lineCap: 'butt',
-      barColor: '#1abc9c',
+      barColor: '#1c2d85',
       trackColor:	"#ecf0f1",
       size: 160,
       animate: 2000

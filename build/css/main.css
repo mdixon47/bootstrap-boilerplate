@@ -8205,80 +8205,80 @@ html {
   background-size: cover;
   background-attachment: fixed;
   height: 500px;
+  padding-top: -40px;
 }
-/* line 152, ../sass/_layout.scss */
+/* line 153, ../sass/_layout.scss */
 #testimonials-section .testimonial {
   opacity: 0;
 }
-/* line 156, ../sass/_layout.scss */
+/* line 157, ../sass/_layout.scss */
 #testimonials-section h2 {
   margin-top: 110px;
   text-align: center;
   color: #fff;
 }
 
-/* line 163, ../sass/_layout.scss */
+/* line 164, ../sass/_layout.scss */
 #tcb-testimonial-carousel {
   height: 300px;
   width: 900px;
   padding: 0;
-  margin-top: 30px;
   margin-left: 190px;
 }
-/* line 169, ../sass/_layout.scss */
+/* line 170, ../sass/_layout.scss */
 #tcb-testimonial-carousel .carousel-indicators {
   margin-left: -340px;
 }
-/* line 172, ../sass/_layout.scss */
+/* line 173, ../sass/_layout.scss */
 #tcb-testimonial-carousel .no-margin {
   margin: 0;
 }
-/* line 174, ../sass/_layout.scss */
+/* line 175, ../sass/_layout.scss */
 #tcb-testimonial-carousel .no-margin p {
   font-size: 1em;
 }
-/* line 180, ../sass/_layout.scss */
+/* line 181, ../sass/_layout.scss */
 #tcb-testimonial-carousel a {
   color: #fff;
 }
-/* line 183, ../sass/_layout.scss */
+/* line 184, ../sass/_layout.scss */
 #tcb-testimonial-carousel .item {
   padding: 40px 40px;
 }
-/* line 186, ../sass/_layout.scss */
+/* line 187, ../sass/_layout.scss */
 #tcb-testimonial-carousel .media-object {
   margin: auto;
 }
-/* line 190, ../sass/_layout.scss */
+/* line 191, ../sass/_layout.scss */
 #tcb-testimonial-carousel .img-responsive {
   margin-left: -35px;
   border-radius: 50%;
   max-width: 140%;
-  border: 5px solid #fff;
+  border: 3px solid #fff;
   -webkit-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
   -moz-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
   box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
 }
-/* line 199, ../sass/_layout.scss */
+/* line 200, ../sass/_layout.scss */
 #tcb-testimonial-carousel figcaption {
   color: #fff;
   font-size: 1.5em;
 }
-/* line 203, ../sass/_layout.scss */
+/* line 204, ../sass/_layout.scss */
 #tcb-testimonial-carousel caption {
   color: #fff;
   font-size: 1.5em;
 }
-/* line 207, ../sass/_layout.scss */
+/* line 208, ../sass/_layout.scss */
 #tcb-testimonial-carousel blockquote {
   color: #fff;
 }
-/* line 210, ../sass/_layout.scss */
+/* line 211, ../sass/_layout.scss */
 #tcb-testimonial-carousel blockquote cite {
   color: #fff;
 }
 
-/* line 216, ../sass/_layout.scss */
+/* line 217, ../sass/_layout.scss */
 footer {
   height: 100px;
 }
@@ -8349,46 +8349,49 @@ of those sections to manage the look and feel of the site. */
   background-size: cover;
   background-position: center center;
 }
-/* line 58, ../sass/_scrolling-nav.scss */
+/* line 57, ../sass/_scrolling-nav.scss */
 #portfolio-section h2 {
   color: #fff;
 }
-/* line 61, ../sass/_scrolling-nav.scss */
+/* line 60, ../sass/_scrolling-nav.scss */
 #portfolio-section p {
   color: #fff;
 }
 
-/* line 66, ../sass/_scrolling-nav.scss */
+/* line 65, ../sass/_scrolling-nav.scss */
 #skillset-section {
   height: 800px;
   padding-top: 100px;
   text-align: center;
-  background: #fff;
+  background: url("../img/backgoundimg.jpg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
 }
-/* line 71, ../sass/_scrolling-nav.scss */
+/* line 73, ../sass/_scrolling-nav.scss */
 #skillset-section .skillset_title {
   opacity: 0;
 }
-/* line 74, ../sass/_scrolling-nav.scss */
+/* line 76, ../sass/_scrolling-nav.scss */
 #skillset-section .marketing {
   opacity: 0;
 }
-/* line 77, ../sass/_scrolling-nav.scss */
+/* line 79, ../sass/_scrolling-nav.scss */
 #skillset-section .develop_title {
   opacity: 0;
 }
-/* line 80, ../sass/_scrolling-nav.scss */
+/* line 82, ../sass/_scrolling-nav.scss */
 #skillset-section .develop {
   opacity: 0;
 }
 
-/* line 87, ../sass/_scrolling-nav.scss */
+/* line 89, ../sass/_scrolling-nav.scss */
 canvas {
   width: 180px;
   height: 180px;
 }
 
-/* line 93, ../sass/_scrolling-nav.scss */
+/* line 95, ../sass/_scrolling-nav.scss */
 #contact-section {
   height: 100%;
   padding-top: 150px;
@@ -8396,7 +8399,7 @@ canvas {
   background: #eee;
 }
 
-/* line 99, ../sass/_scrolling-nav.scss */
+/* line 101, ../sass/_scrolling-nav.scss */
 #custom-nav.affix {
   top: 0;
   min-width: 100%;
@@ -8408,7 +8411,7 @@ canvas {
   transition: background 0.5s ease-in-out, opacity 0.5s ease;
 }
 
-/* line 109, ../sass/_scrolling-nav.scss */
+/* line 111, ../sass/_scrolling-nav.scss */
 #custom-nav {
   background-color: transparent;
   border: 0;
