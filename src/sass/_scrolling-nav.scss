@@ -50,7 +50,7 @@ of those sections to manage the look and feel of the site. */
 				height: 1000px;
 				padding-top: 100px;
 				text-align: center;
-				background: linear-gradient(rgba(174, 136, 75, 0.5), rgba(174, 136, 75, 0.5)), url('../img/bg.jpg');
+				 background: linear-gradient(rgba(28, 48, 133, 0.5), rgba(28, 48, 130, 0.5)), url('../img/bg.jpg');
 				background-attachment: fixed;
 				background-size: cover;
 				background-position: center center;
@@ -96,7 +96,33 @@ canvas{
 				height: 100%;
 				padding-top: 150px;
 				text-align: center;
-				background: #eee;
+				background: linear-gradient(rgba(28, 48, 133, 0.5), rgba(28, 48, 130, 0.5)), url('../img/DeathtoStock_Wired7.jpg');
+				background-attachment: fixed;
+				background-size: cover;
+				background-position: center center;
+				.c_content{
+					h2{
+						 color: #fff;
+					}
+					p{
+						color: #fff;
+						font-size: 1.3em;
+				 	}
+					.btn-circle{
+							width: 50px;
+							height: 50px;
+							margin-top: 15px;
+							padding: 8px 8px;
+						  border: 2px solid #fff;
+							border-radius: 50%;
+							color: #fff;
+							background: 0 0;
+							font-size: 20px;
+						}
+						&:hover{
+							background: #fff;
+						}
+			}
 }
 #custom-nav.affix {
 				top: 0;

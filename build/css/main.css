@@ -8047,18 +8047,18 @@ html {
   text-align: center;
   vertical-align: middle;
   color: #fff;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/macOnTable.jpg");
+  background: linear-gradient(rgba(28, 48, 133, 0.5), rgba(28, 48, 130, 0.5)), url("../img/macOnTable.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
   opacity: 0;
 }
-/* line 15, ../sass/_layout.scss */
+/* line 14, ../sass/_layout.scss */
 #intro .intro-content {
   opacity: 0;
   font-size: 1.5em;
 }
-/* line 18, ../sass/_layout.scss */
+/* line 17, ../sass/_layout.scss */
 #intro .intro-content .btn-circle {
   width: 70px;
   height: 70px;
@@ -8071,63 +8071,63 @@ html {
   background: 0 0;
 }
 
-/* line 34, ../sass/_layout.scss */
+/* line 33, ../sass/_layout.scss */
 .navbar-right {
   margin-top: 5px;
 }
-/* line 36, ../sass/_layout.scss */
+/* line 35, ../sass/_layout.scss */
 .navbar-right .navbar-nav li a {
   color: #fff;
   font-size: 1.3em;
 }
-/* line 39, ../sass/_layout.scss */
+/* line 38, ../sass/_layout.scss */
 .navbar-right .navbar-nav li a:hover {
   color: #000;
 }
 
-/* line 44, ../sass/_layout.scss */
+/* line 43, ../sass/_layout.scss */
 .navbar-brand {
   color: #fff;
   font-weight: bold;
   font-size: 24px;
 }
 
-/* line 49, ../sass/_layout.scss */
+/* line 48, ../sass/_layout.scss */
 #about-section {
   opacity: 0;
 }
-/* line 51, ../sass/_layout.scss */
+/* line 50, ../sass/_layout.scss */
 #about-section .work_type {
   margin-top: 30px;
 }
-/* line 54, ../sass/_layout.scss */
+/* line 53, ../sass/_layout.scss */
 #about-section h2 {
   text-transform: uppercase;
 }
 
-/* line 58, ../sass/_layout.scss */
+/* line 57, ../sass/_layout.scss */
 .portfolio_title {
   opacity: 0;
 }
 
-/* line 61, ../sass/_layout.scss */
+/* line 60, ../sass/_layout.scss */
 .portfolio-site-1 {
   padding: 30px;
   opacity: 0;
 }
 
-/* line 65, ../sass/_layout.scss */
+/* line 64, ../sass/_layout.scss */
 .portfolio-site-2 {
   opacity: 0;
 }
 
-/* line 68, ../sass/_layout.scss */
+/* line 67, ../sass/_layout.scss */
 #myCanvas canvas {
   width: 180px;
   height: 180px;
 }
 
-/* line 72, ../sass/_layout.scss */
+/* line 71, ../sass/_layout.scss */
 .card {
   height: 320px;
   width: 360px;
@@ -8135,7 +8135,7 @@ html {
   border: 1px solid rgba(255, 255, 255, 0.5);
   position: relative;
 }
-/* line 79, ../sass/_layout.scss */
+/* line 78, ../sass/_layout.scss */
 .card .card-image .rollover {
   opacity: 0;
   -o-transition-duration: 1s;
@@ -8150,7 +8150,7 @@ html {
   width: 358px;
   z-index: 10;
 }
-/* line 93, ../sass/_layout.scss */
+/* line 92, ../sass/_layout.scss */
 .card .card-image .rollover:hover {
   opacity: 0.7;
   -o-transition-duration: 1s;
@@ -8161,36 +8161,36 @@ html {
   -moz-box-shadow: 0 0 4 #000;
   box-shadow: 0 0 4 #000;
 }
-/* line 108, ../sass/_layout.scss */
+/* line 107, ../sass/_layout.scss */
 .card .card-content h4 {
   color: #fff;
 }
-/* line 111, ../sass/_layout.scss */
+/* line 110, ../sass/_layout.scss */
 .card .card-content p {
   color: #fff;
   padding: 0px 15px;
 }
 
-/* line 120, ../sass/_layout.scss */
+/* line 119, ../sass/_layout.scss */
 #skillset-section .skillset {
   padding: 30px 40px;
   text-align: center;
 }
-/* line 123, ../sass/_layout.scss */
+/* line 122, ../sass/_layout.scss */
 #skillset-section .skillset .chart {
   position: relative;
   display: inline-block;
   margin: 20px;
   color: #000;
 }
-/* line 128, ../sass/_layout.scss */
+/* line 127, ../sass/_layout.scss */
 #skillset-section .skillset .chart .title {
   margin-left: 20px;
   margin-top: 10px;
   font-weight: bold;
   font-size: 1.2em;
 }
-/* line 135, ../sass/_layout.scss */
+/* line 134, ../sass/_layout.scss */
 #skillset-section .skillset canvas {
   position: absolute;
   top: 0;
@@ -8198,7 +8198,7 @@ html {
 }
 
 /* testimonials-section */
-/* line 145, ../sass/_layout.scss */
+/* line 144, ../sass/_layout.scss */
 #testimonials-section {
   background: linear-gradient(rgba(28, 48, 133, 0.5), rgba(28, 48, 130, 0.5)), url("../img/bg.jpg");
   background-position: center;
@@ -8207,49 +8207,49 @@ html {
   height: 500px;
   padding-top: -40px;
 }
-/* line 153, ../sass/_layout.scss */
+/* line 152, ../sass/_layout.scss */
 #testimonials-section .testimonial {
   opacity: 0;
 }
-/* line 157, ../sass/_layout.scss */
+/* line 156, ../sass/_layout.scss */
 #testimonials-section h2 {
   margin-top: 110px;
   text-align: center;
   color: #fff;
 }
 
-/* line 164, ../sass/_layout.scss */
+/* line 163, ../sass/_layout.scss */
 #tcb-testimonial-carousel {
   height: 300px;
   width: 900px;
   padding: 0;
   margin-left: 190px;
 }
-/* line 170, ../sass/_layout.scss */
+/* line 168, ../sass/_layout.scss */
 #tcb-testimonial-carousel .carousel-indicators {
   margin-left: -340px;
 }
-/* line 173, ../sass/_layout.scss */
+/* line 171, ../sass/_layout.scss */
 #tcb-testimonial-carousel .no-margin {
   margin: 0;
 }
-/* line 175, ../sass/_layout.scss */
+/* line 173, ../sass/_layout.scss */
 #tcb-testimonial-carousel .no-margin p {
   font-size: 1em;
 }
-/* line 181, ../sass/_layout.scss */
+/* line 178, ../sass/_layout.scss */
 #tcb-testimonial-carousel a {
   color: #fff;
 }
-/* line 184, ../sass/_layout.scss */
+/* line 181, ../sass/_layout.scss */
 #tcb-testimonial-carousel .item {
   padding: 40px 40px;
 }
-/* line 187, ../sass/_layout.scss */
+/* line 184, ../sass/_layout.scss */
 #tcb-testimonial-carousel .media-object {
   margin: auto;
 }
-/* line 191, ../sass/_layout.scss */
+/* line 188, ../sass/_layout.scss */
 #tcb-testimonial-carousel .img-responsive {
   margin-left: -35px;
   border-radius: 50%;
@@ -8259,28 +8259,30 @@ html {
   -moz-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
   box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
 }
-/* line 200, ../sass/_layout.scss */
+/* line 197, ../sass/_layout.scss */
 #tcb-testimonial-carousel figcaption {
   color: #fff;
   font-size: 1.5em;
 }
-/* line 204, ../sass/_layout.scss */
+/* line 201, ../sass/_layout.scss */
 #tcb-testimonial-carousel caption {
   color: #fff;
   font-size: 1.5em;
 }
-/* line 208, ../sass/_layout.scss */
+/* line 205, ../sass/_layout.scss */
 #tcb-testimonial-carousel blockquote {
   color: #fff;
 }
-/* line 211, ../sass/_layout.scss */
+/* line 208, ../sass/_layout.scss */
 #tcb-testimonial-carousel blockquote cite {
   color: #fff;
 }
 
-/* line 217, ../sass/_layout.scss */
+/* line 214, ../sass/_layout.scss */
 footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg.jpg");
   height: 100px;
+  color: #fff;
 }
 
 /*!
@@ -8344,7 +8346,7 @@ of those sections to manage the look and feel of the site. */
   height: 1000px;
   padding-top: 100px;
   text-align: center;
-  background: linear-gradient(rgba(174, 136, 75, 0.5), rgba(174, 136, 75, 0.5)), url("../img/bg.jpg");
+  background: linear-gradient(rgba(28, 48, 133, 0.5), rgba(28, 48, 130, 0.5)), url("../img/bg.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
@@ -8396,10 +8398,38 @@ canvas {
   height: 100%;
   padding-top: 150px;
   text-align: center;
-  background: #eee;
+  background: linear-gradient(rgba(28, 48, 133, 0.5), rgba(28, 48, 130, 0.5)), url("../img/DeathtoStock_Wired7.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 104, ../sass/_scrolling-nav.scss */
+#contact-section .c_content h2 {
+  color: #fff;
+}
+/* line 107, ../sass/_scrolling-nav.scss */
+#contact-section .c_content p {
+  color: #fff;
+  font-size: 1.3em;
+}
+/* line 111, ../sass/_scrolling-nav.scss */
+#contact-section .c_content .btn-circle {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+  padding: 8px 8px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  background: 0 0;
+  font-size: 20px;
+}
+/* line 122, ../sass/_scrolling-nav.scss */
+#contact-section .c_content:hover {
+  background: #fff;
 }
 
-/* line 101, ../sass/_scrolling-nav.scss */
+/* line 127, ../sass/_scrolling-nav.scss */
 #custom-nav.affix {
   top: 0;
   min-width: 100%;
@@ -8411,7 +8441,7 @@ canvas {
   transition: background 0.5s ease-in-out, opacity 0.5s ease;
 }
 
-/* line 111, ../sass/_scrolling-nav.scss */
+/* line 137, ../sass/_scrolling-nav.scss */
 #custom-nav {
   background-color: transparent;
   border: 0;

@@ -6,8 +6,7 @@
 				text-align: center;
 				vertical-align: middle;
 				color: #fff;
-				background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url('../img/macOnTable.jpg');
+				 background: linear-gradient(rgba(28, 48, 133, 0.5), rgba(28, 48, 130, 0.5)), url('../img/macOnTable.jpg');
 				background-attachment: fixed;
 				background-size: cover;
 				background-position: center center;
@@ -165,17 +164,15 @@ $brand-color: #333;
 				 height: 300px;
 				 width: 900px;
 				 padding: 0;
-
-				 margin-left: 190px;
+         margin-left: 190px;
 				 .carousel-indicators{
 					 margin-left: -340px;
 				 }
 				 .no-margin{
 					 margin: 0;
-					 p{
+						 p{
 						 font-size: 1em;
-					 }
-
+						 }
 				 }
 
 				a {
@@ -215,5 +212,7 @@ $brand-color: #333;
 }
 
 footer {
+				background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bg.jpg');
 				height: 100px;
+				color: #fff;
 }
