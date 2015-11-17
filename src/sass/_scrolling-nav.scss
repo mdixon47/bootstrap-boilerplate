@@ -28,7 +28,10 @@ of those sections to manage the look and feel of the site. */
 				height: 100%;
 				padding-top: 120px;
 				text-align: center;
-				background: #eee;
+				background: linear-gradient(rgba(255, 255,255, 0.8), rgba(255, 255, 255, 0.8)), url('../img/bg.jpg');
+				background-attachment: fixed;
+				background-size: cover;
+				background-position: center center;
 				opacity: 0;
 				.about-img {
 								background: url('../img/malikdixon.png') no-repeat center center;
@@ -36,10 +39,10 @@ of those sections to manage the look and feel of the site. */
 								height: 260px;
 								width: 260px;
 								border-radius: 50%;
-								border: 5px solid #fff;
-								-webkit-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
-								-moz-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
-								box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
+								border: 5px solid #c3c3c3;
+								-webkit-box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.45);
+								-moz-box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.45);
+								box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.45);
 								opacity: 0;
 				}
 				.work_type {
@@ -101,28 +104,44 @@ canvas{
 				background-size: cover;
 				background-position: center center;
 				.c_content{
+					opacity: 0;
 					h2{
 						 color: #fff;
 					}
 					p{
 						color: #fff;
-						font-size: 1.3em;
+						font-size: 1.4em;
 				 	}
-					.btn-circle{
-							width: 50px;
-							height: 50px;
-							margin-top: 15px;
-							padding: 8px 8px;
-						  border: 2px solid #fff;
-							border-radius: 50%;
-							color: #fff;
-							background: 0 0;
-							font-size: 20px;
-						}
-						&:hover{
-							background: #fff;
-						}
+
 			}
+			.btn-circle{
+					width: 50px;
+					height: 50px;
+					margin-top: 15px;
+					padding: 8px 8px;
+					border: 2px solid #fff;
+					border-radius: 50%;
+					color: #fff;
+					background: 0 0;
+					font-size: 20px;
+					&:hover{
+						background: rgba(255,255,255,0.5);
+						color: #1c2d85;
+						-webkit-transition: background 0.6s ease-in-out, opacity 0.6s ease;
+						-moz-transition: background 0.6s ease-in-out, opacity 0.6s ease;
+						transition: background 0.6s ease-in-out, opacity 0.6s ease;
+					}
+
+				}
+				.list_contact{
+						list-style-type: none;
+						.btn{
+							color:#fff;
+							font-size: 1.5em;
+						}
+				}
+
+
 }
 #custom-nav.affix {
 				top: 0;

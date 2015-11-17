@@ -59,6 +59,12 @@ $(document).ready(function(){
 
       }
 
+      if($(this).scrollTop() > 3703) {
+
+          $('.c_content').addClass('animated fadeInDown');
+
+      }
+
   });
 
 });

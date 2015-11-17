@@ -121,7 +121,7 @@ html
 						.row
 							.col-md-4
 								.card
-									a.card-image(href="http://cwshell.com")
+									a.card-image(href="http://cwshell.com" target="_blank")
 										span.rollover
 										img.imgborder(alt=""
 										src="img/WesandChristi.png" width="358" height="170")
@@ -253,34 +253,56 @@ html
 							// Controls
 
 
-		section#contact-section.text-center
+		section#contact-section
 			.container
 				.row
 					.col-lg-6.col-md-6
 					.col-lg-6.col-md-6.c_content
 						h2 Get in Touch
-						p.text-justify Right now, I am avaliable for projects at this time. If you are interested in creating a Internet business strategy, project colaboration, or just want to comment about my site please send me and message and I will respond to you as quick as I can.
-						ul.list-inline.banner-social-buttons
+						p.text-justify Right now, I am avaliable for projects at this time. If you are interested in creating a Internet business strategy, project colaboration, Web development, or just want to comment about my site please send me and message and I will respond to you as quick as I can. I also do training and coding sessions on Live Coding TV (livecoding.tv). 
+						
+						ul.list_contact
 							li
-								a.btn.btn-circle(href="https://twitter.com/mdixon2009")
+								a.btn.email(href="mailto:me@malikwdixon.com")
+									i.fa.fa-envelope  me@malikwdixon.com
+							li
+								a.btn.phone(href="#")
+									i.fa.fa-phone  (605) 786-2622
+									
+						
+						ul.list-inline.banner-social-buttons.text-center
+							li
+								a.btn.btn-circle(href="https://twitter.com/mdixon2009" target="_blank")
 									i.fa.fa-twitter.fa-fw
 							li
-								a.btn.btn-circle(href="https//github.com/mdixon47") 
+								a.btn.btn-circle(href="http://github.com/mdixon47" target="_blank") 
 									i.fa.fa-github.fa-fw
 							li 
-								a.btn.btn-circle(href="#")
+								a.btn.btn-circle(href="https://plus.google.com/u/0/+MalikDixon/posts" target="_blank")
 									i.fa.fa-google-plus.fa-fw
 							li 
-								a.btn.btn-circle(href="#")
+								a.btn.btn-circle(href="https://www.linkedin.com/in/malik-w-dixon-m-s-97bb3715" target="_blank")
 									i.fa.fa-linkedin.fa-fw
+							li 
+								a.btn.btn-circle(href="https://www.facebook.com/malik.dixon" target="_blank")
+									i.fa.fa-facebook.fa-fw
+									
+								
+							
+					
 
 
 
 		footer.text-center
 			.container
 				.row
-					h3 This is the footer
-					p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					.col-md-6.footer_content
+						p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					.col-md-6.up_arrow
+						a.btn.pull-right.up_btn.page-scroll(href="#page-top")
+							i.fa.fa-arrow-up.fa-fw
+					
+					
 
 
 		script(type="text/javascript", src="http://code.jquery.com/jquery-1.11.0.min.js")

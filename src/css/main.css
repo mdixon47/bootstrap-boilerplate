@@ -8070,64 +8070,72 @@ html {
   color: #fff;
   background: 0 0;
 }
+/* line 27, ../sass/_layout.scss */
+#intro .intro-content .btn-circle:hover {
+  background: #fff;
+  color: #1c2d85;
+  -webkit-transition: background 0.6s ease-in-out, opacity 0.6s ease;
+  -moz-transition: background 0.6s ease-in-out, opacity 0.6s ease;
+  transition: background 0.6s ease-in-out, opacity 0.6s ease;
+}
 
-/* line 33, ../sass/_layout.scss */
+/* line 40, ../sass/_layout.scss */
 .navbar-right {
   margin-top: 5px;
 }
-/* line 35, ../sass/_layout.scss */
+/* line 42, ../sass/_layout.scss */
 .navbar-right .navbar-nav li a {
   color: #fff;
   font-size: 1.3em;
 }
-/* line 38, ../sass/_layout.scss */
+/* line 45, ../sass/_layout.scss */
 .navbar-right .navbar-nav li a:hover {
   color: #000;
 }
 
-/* line 43, ../sass/_layout.scss */
+/* line 50, ../sass/_layout.scss */
 .navbar-brand {
   color: #fff;
   font-weight: bold;
   font-size: 24px;
 }
 
-/* line 48, ../sass/_layout.scss */
+/* line 55, ../sass/_layout.scss */
 #about-section {
   opacity: 0;
 }
-/* line 50, ../sass/_layout.scss */
+/* line 57, ../sass/_layout.scss */
 #about-section .work_type {
   margin-top: 30px;
 }
-/* line 53, ../sass/_layout.scss */
+/* line 60, ../sass/_layout.scss */
 #about-section h2 {
   text-transform: uppercase;
 }
 
-/* line 57, ../sass/_layout.scss */
+/* line 64, ../sass/_layout.scss */
 .portfolio_title {
   opacity: 0;
 }
 
-/* line 60, ../sass/_layout.scss */
+/* line 67, ../sass/_layout.scss */
 .portfolio-site-1 {
   padding: 30px;
   opacity: 0;
 }
 
-/* line 64, ../sass/_layout.scss */
+/* line 71, ../sass/_layout.scss */
 .portfolio-site-2 {
   opacity: 0;
 }
 
-/* line 67, ../sass/_layout.scss */
+/* line 74, ../sass/_layout.scss */
 #myCanvas canvas {
   width: 180px;
   height: 180px;
 }
 
-/* line 71, ../sass/_layout.scss */
+/* line 78, ../sass/_layout.scss */
 .card {
   height: 320px;
   width: 360px;
@@ -8135,7 +8143,7 @@ html {
   border: 1px solid rgba(255, 255, 255, 0.5);
   position: relative;
 }
-/* line 78, ../sass/_layout.scss */
+/* line 85, ../sass/_layout.scss */
 .card .card-image .rollover {
   opacity: 0;
   -o-transition-duration: 1s;
@@ -8150,7 +8158,7 @@ html {
   width: 358px;
   z-index: 10;
 }
-/* line 92, ../sass/_layout.scss */
+/* line 99, ../sass/_layout.scss */
 .card .card-image .rollover:hover {
   opacity: 0.7;
   -o-transition-duration: 1s;
@@ -8161,36 +8169,36 @@ html {
   -moz-box-shadow: 0 0 4 #000;
   box-shadow: 0 0 4 #000;
 }
-/* line 107, ../sass/_layout.scss */
+/* line 114, ../sass/_layout.scss */
 .card .card-content h4 {
   color: #fff;
 }
-/* line 110, ../sass/_layout.scss */
+/* line 117, ../sass/_layout.scss */
 .card .card-content p {
   color: #fff;
   padding: 0px 15px;
 }
 
-/* line 119, ../sass/_layout.scss */
+/* line 126, ../sass/_layout.scss */
 #skillset-section .skillset {
   padding: 30px 40px;
   text-align: center;
 }
-/* line 122, ../sass/_layout.scss */
+/* line 129, ../sass/_layout.scss */
 #skillset-section .skillset .chart {
   position: relative;
   display: inline-block;
   margin: 20px;
   color: #000;
 }
-/* line 127, ../sass/_layout.scss */
+/* line 134, ../sass/_layout.scss */
 #skillset-section .skillset .chart .title {
   margin-left: 20px;
   margin-top: 10px;
   font-weight: bold;
   font-size: 1.2em;
 }
-/* line 134, ../sass/_layout.scss */
+/* line 141, ../sass/_layout.scss */
 #skillset-section .skillset canvas {
   position: absolute;
   top: 0;
@@ -8198,7 +8206,7 @@ html {
 }
 
 /* testimonials-section */
-/* line 144, ../sass/_layout.scss */
+/* line 151, ../sass/_layout.scss */
 #testimonials-section {
   background: linear-gradient(rgba(28, 48, 133, 0.5), rgba(28, 48, 130, 0.5)), url("../img/bg.jpg");
   background-position: center;
@@ -8207,49 +8215,49 @@ html {
   height: 500px;
   padding-top: -40px;
 }
-/* line 152, ../sass/_layout.scss */
+/* line 159, ../sass/_layout.scss */
 #testimonials-section .testimonial {
   opacity: 0;
 }
-/* line 156, ../sass/_layout.scss */
+/* line 163, ../sass/_layout.scss */
 #testimonials-section h2 {
   margin-top: 110px;
   text-align: center;
   color: #fff;
 }
 
-/* line 163, ../sass/_layout.scss */
+/* line 170, ../sass/_layout.scss */
 #tcb-testimonial-carousel {
   height: 300px;
   width: 900px;
   padding: 0;
   margin-left: 190px;
 }
-/* line 168, ../sass/_layout.scss */
+/* line 175, ../sass/_layout.scss */
 #tcb-testimonial-carousel .carousel-indicators {
   margin-left: -340px;
 }
-/* line 171, ../sass/_layout.scss */
+/* line 178, ../sass/_layout.scss */
 #tcb-testimonial-carousel .no-margin {
   margin: 0;
 }
-/* line 173, ../sass/_layout.scss */
+/* line 180, ../sass/_layout.scss */
 #tcb-testimonial-carousel .no-margin p {
   font-size: 1em;
 }
-/* line 178, ../sass/_layout.scss */
+/* line 185, ../sass/_layout.scss */
 #tcb-testimonial-carousel a {
   color: #fff;
 }
-/* line 181, ../sass/_layout.scss */
+/* line 188, ../sass/_layout.scss */
 #tcb-testimonial-carousel .item {
   padding: 40px 40px;
 }
-/* line 184, ../sass/_layout.scss */
+/* line 191, ../sass/_layout.scss */
 #tcb-testimonial-carousel .media-object {
   margin: auto;
 }
-/* line 188, ../sass/_layout.scss */
+/* line 195, ../sass/_layout.scss */
 #tcb-testimonial-carousel .img-responsive {
   margin-left: -35px;
   border-radius: 50%;
@@ -8259,30 +8267,55 @@ html {
   -moz-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
   box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
 }
-/* line 197, ../sass/_layout.scss */
+/* line 204, ../sass/_layout.scss */
 #tcb-testimonial-carousel figcaption {
   color: #fff;
   font-size: 1.5em;
 }
-/* line 201, ../sass/_layout.scss */
+/* line 208, ../sass/_layout.scss */
 #tcb-testimonial-carousel caption {
   color: #fff;
   font-size: 1.5em;
 }
-/* line 205, ../sass/_layout.scss */
+/* line 212, ../sass/_layout.scss */
 #tcb-testimonial-carousel blockquote {
   color: #fff;
 }
-/* line 208, ../sass/_layout.scss */
+/* line 215, ../sass/_layout.scss */
 #tcb-testimonial-carousel blockquote cite {
   color: #fff;
 }
 
-/* line 214, ../sass/_layout.scss */
+/* line 221, ../sass/_layout.scss */
 footer {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg.jpg");
-  height: 100px;
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../img/bg.jpg");
+  height: 120px;
+  color: #1c3085;
+  border-top: 5px solid #1c2d85;
+}
+/* line 226, ../sass/_layout.scss */
+footer .footer_content {
+  margin-top: 40px;
+}
+/* line 229, ../sass/_layout.scss */
+footer .up_btn {
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
+  padding: 8px 8px;
+  border: 2px solid #1c2d85;
+  border-radius: 50%;
+  color: #1c2d85;
+  background: 0 0;
+  font-size: 20px;
+}
+/* line 239, ../sass/_layout.scss */
+footer .up_btn:hover {
+  background: #1c2d85;
   color: #fff;
+  -webkit-transition: background 0.6s ease-in-out, opacity 0.6s ease;
+  -moz-transition: background 0.6s ease-in-out, opacity 0.6s ease;
+  transition: background 0.6s ease-in-out, opacity 0.6s ease;
 }
 
 /*!
@@ -8320,28 +8353,31 @@ of those sections to manage the look and feel of the site. */
   height: 100%;
   padding-top: 120px;
   text-align: center;
-  background: #eee;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
   opacity: 0;
 }
-/* line 33, ../sass/_scrolling-nav.scss */
+/* line 36, ../sass/_scrolling-nav.scss */
 #about-section .about-img {
   background: url("../img/malikdixon.png") no-repeat center center;
   background-size: 290px;
   height: 260px;
   width: 260px;
   border-radius: 50%;
-  border: 5px solid #fff;
-  -webkit-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
-  -moz-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
-  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.45);
+  border: 5px solid #c3c3c3;
+  -webkit-box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.45);
+  -moz-box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.45);
+  box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.45);
   opacity: 0;
 }
-/* line 45, ../sass/_scrolling-nav.scss */
+/* line 48, ../sass/_scrolling-nav.scss */
 #about-section .work_type {
   margin-top: 40px;
 }
 
-/* line 49, ../sass/_scrolling-nav.scss */
+/* line 52, ../sass/_scrolling-nav.scss */
 #portfolio-section {
   height: 1000px;
   padding-top: 100px;
@@ -8351,16 +8387,16 @@ of those sections to manage the look and feel of the site. */
   background-size: cover;
   background-position: center center;
 }
-/* line 57, ../sass/_scrolling-nav.scss */
+/* line 60, ../sass/_scrolling-nav.scss */
 #portfolio-section h2 {
   color: #fff;
 }
-/* line 60, ../sass/_scrolling-nav.scss */
+/* line 63, ../sass/_scrolling-nav.scss */
 #portfolio-section p {
   color: #fff;
 }
 
-/* line 65, ../sass/_scrolling-nav.scss */
+/* line 68, ../sass/_scrolling-nav.scss */
 #skillset-section {
   height: 800px;
   padding-top: 100px;
@@ -8370,30 +8406,30 @@ of those sections to manage the look and feel of the site. */
   background-size: cover;
   background-position: center center;
 }
-/* line 73, ../sass/_scrolling-nav.scss */
+/* line 76, ../sass/_scrolling-nav.scss */
 #skillset-section .skillset_title {
   opacity: 0;
 }
-/* line 76, ../sass/_scrolling-nav.scss */
+/* line 79, ../sass/_scrolling-nav.scss */
 #skillset-section .marketing {
   opacity: 0;
 }
-/* line 79, ../sass/_scrolling-nav.scss */
+/* line 82, ../sass/_scrolling-nav.scss */
 #skillset-section .develop_title {
   opacity: 0;
 }
-/* line 82, ../sass/_scrolling-nav.scss */
+/* line 85, ../sass/_scrolling-nav.scss */
 #skillset-section .develop {
   opacity: 0;
 }
 
-/* line 89, ../sass/_scrolling-nav.scss */
+/* line 92, ../sass/_scrolling-nav.scss */
 canvas {
   width: 180px;
   height: 180px;
 }
 
-/* line 95, ../sass/_scrolling-nav.scss */
+/* line 98, ../sass/_scrolling-nav.scss */
 #contact-section {
   height: 100%;
   padding-top: 150px;
@@ -8403,17 +8439,21 @@ canvas {
   background-size: cover;
   background-position: center center;
 }
-/* line 104, ../sass/_scrolling-nav.scss */
+/* line 106, ../sass/_scrolling-nav.scss */
+#contact-section .c_content {
+  opacity: 0;
+}
+/* line 108, ../sass/_scrolling-nav.scss */
 #contact-section .c_content h2 {
   color: #fff;
 }
-/* line 107, ../sass/_scrolling-nav.scss */
+/* line 111, ../sass/_scrolling-nav.scss */
 #contact-section .c_content p {
   color: #fff;
-  font-size: 1.3em;
+  font-size: 1.4em;
 }
-/* line 111, ../sass/_scrolling-nav.scss */
-#contact-section .c_content .btn-circle {
+/* line 117, ../sass/_scrolling-nav.scss */
+#contact-section .btn-circle {
   width: 50px;
   height: 50px;
   margin-top: 15px;
@@ -8424,12 +8464,25 @@ canvas {
   background: 0 0;
   font-size: 20px;
 }
-/* line 122, ../sass/_scrolling-nav.scss */
-#contact-section .c_content:hover {
-  background: #fff;
+/* line 127, ../sass/_scrolling-nav.scss */
+#contact-section .btn-circle:hover {
+  background: rgba(255, 255, 255, 0.5);
+  color: #1c2d85;
+  -webkit-transition: background 0.6s ease-in-out, opacity 0.6s ease;
+  -moz-transition: background 0.6s ease-in-out, opacity 0.6s ease;
+  transition: background 0.6s ease-in-out, opacity 0.6s ease;
+}
+/* line 136, ../sass/_scrolling-nav.scss */
+#contact-section .list_contact {
+  list-style-type: none;
+}
+/* line 138, ../sass/_scrolling-nav.scss */
+#contact-section .list_contact .btn {
+  color: #fff;
+  font-size: 1.5em;
 }
 
-/* line 127, ../sass/_scrolling-nav.scss */
+/* line 146, ../sass/_scrolling-nav.scss */
 #custom-nav.affix {
   top: 0;
   min-width: 100%;
@@ -8441,7 +8494,7 @@ canvas {
   transition: background 0.5s ease-in-out, opacity 0.5s ease;
 }
 
-/* line 137, ../sass/_scrolling-nav.scss */
+/* line 156, ../sass/_scrolling-nav.scss */
 #custom-nav {
   background-color: transparent;
   border: 0;
